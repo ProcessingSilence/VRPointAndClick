@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit;
 
@@ -23,7 +24,9 @@ public class Testing : MonoBehaviour
 
     //public bool triggerVal;
     public bool primaryVal;
+    public bool primaryInput;
 
+    public int primaryIsUpFlag;
     public bool shrinkOrGrow;
     
     // Start is called before the first frame update
@@ -47,13 +50,13 @@ public class Testing : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PrimaryInputDetection();
-
-
+        PrimaryInputPress();
+        ShrinkOrGrowSwap();
+        PrimaryInputRelease();
     }
     
 
-    public void Shrink()
+    private void Shrink()
     {
         player.localScale = new Vector3(0.1f,0.1f,0.1f);
         XRRig_Script.cameraYOffset = currentYOffset/10;
@@ -62,7 +65,7 @@ public class Testing : MonoBehaviour
             _leftLine.reticle.transform.localScale = currentReticleScale/10;
     }
 
-    public void Grow()
+    private void Grow()
     {
         player.localScale = new Vector3(1f,1f,1f);
         XRRig_Script.cameraYOffset = currentYOffset;
@@ -73,26 +76,63 @@ public class Testing : MonoBehaviour
 
     // Why is all of this required to press one. simple. button.
     // WHY.
-    private void PrimaryInputDetection()
+    private void PrimaryInputPress()
     {
-        bool primaryInput = false;
+        primaryInput = false;
         if ((_rightController.inputDevice.TryGetFeatureValue(CommonUsages.primaryButton, out primaryInput) 
              || _leftController.inputDevice.TryGetFeatureValue(CommonUsages.primaryButton, out primaryInput)) 
             && primaryInput && !primaryVal)
         {
             primaryVal = true;
-            if (primaryVal)
-                Debug.Log("Primary button is pressed.");
+            Debug.Log("Primary button is pressed.");
         }
-        else if (!primaryInput && primaryVal)
+    }
+
+    private void PrimaryInputRelease()
+    {
+        if (!primaryInput && primaryVal)
         {
             primaryVal = false;
             Debug.Log("Primary button is released.");
         }
-        // Switch back and forth between switching and growing every time Primary is pressed.
-        shrinkOrGrow = !shrinkOrGrow;
     }
-    
+
+    // Switch back and forth between switching and growing every time Primary is pressed.
+    // Activated upon release of primary button.
+    private void ShrinkOrGrowSwap()
+    {
+        /*
+        // Get press down
+        if (primaryVal && primaryIsUpFlag == 0)
+        {
+            primaryIsUpFlag = 1;
+        }
+
+        
+        if (primaryVal == false && primaryIsUpFlag == 1)
+        {
+            primaryIsUpFlag = 2;
+            shrinkOrGrow = !shrinkOrGrow;
+        }
+*/
+        if (!primaryInput && primaryVal)
+        {
+            shrinkOrGrow = !shrinkOrGrow;
+            if (shrinkOrGrow == false)
+            {
+                Shrink();
+            }
+
+            if (shrinkOrGrow)
+            {
+                Grow();
+            }
+        }
+
+
+    }
+
+
     /*
      private void TriggerInputDetection()
      {
