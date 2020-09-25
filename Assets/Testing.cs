@@ -21,8 +21,10 @@ public class Testing : MonoBehaviour
     private XRController _rightController, _leftController;
     private bool _shrinkOrGrow;
 
-    public bool triggerInput;
+    //public bool triggerVal;
+    public bool primaryVal;
 
+    public bool shrinkOrGrow;
     
     // Start is called before the first frame update
     void Awake()
@@ -45,18 +47,9 @@ public class Testing : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool triggerButtonVal = false;
-        if (_rightController.inputDevice.TryGetFeatureValue(CommonUsages.triggerButton, out triggerButtonVal) && triggerButtonVal && !triggerInput)
-        {
-            triggerInput = true;
-            if (triggerInput)
-                Debug.Log("Trigger button is pressed.");
-        }
-        else if (!triggerButtonVal && triggerInput)
-        {
-            triggerInput = false;
-            Debug.Log("Trigger button is released.");
-        }
+        PrimaryInputDetection();
+
+
     }
     
 
@@ -77,4 +70,44 @@ public class Testing : MonoBehaviour
         _rightLine.reticle.transform.localScale =
             _leftLine.reticle.transform.localScale = currentReticleScale;
     }
+
+    // Why is all of this required to press one. simple. button.
+    // WHY.
+    private void PrimaryInputDetection()
+    {
+        bool primaryInput = false;
+        if ((_rightController.inputDevice.TryGetFeatureValue(CommonUsages.primaryButton, out primaryInput) 
+             || _leftController.inputDevice.TryGetFeatureValue(CommonUsages.primaryButton, out primaryInput)) 
+            && primaryInput && !primaryVal)
+        {
+            primaryVal = true;
+            if (primaryVal)
+                Debug.Log("Primary button is pressed.");
+        }
+        else if (!primaryInput && primaryVal)
+        {
+            primaryVal = false;
+            Debug.Log("Primary button is released.");
+        }
+        // Switch back and forth between switching and growing every time Primary is pressed.
+        shrinkOrGrow = !shrinkOrGrow;
+    }
+    
+    /*
+     private void TriggerInputDetection()
+     {
+        bool triggerInput = false;
+        if (_rightController.inputDevice.TryGetFeatureValue(CommonUsages.triggerButton, out triggerInput) && triggerInput && !triggerVal)
+        {
+            triggerVal = true;
+            if (triggerVal)
+                Debug.Log("Trigger button is pressed.");
+        }
+        else if (!triggerInput && triggerVal)
+        {
+            triggerVal = false;
+            Debug.Log("Trigger button is released.");
+        }    
+    }
+    */
 }
