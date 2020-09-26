@@ -13,39 +13,58 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Testing.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1312">
-              <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="55" selection-start-line="55" selection-end-line="55" selection-end-column="30" />
               <folding>
-                <marker date="1601074888693" expanded="false" signature="6:164" ph="..." />
-                <marker date="1601074888693" expanded="true" signature="202:4319" ph="{...}" />
-                <marker date="1601074888693" expanded="true" signature="854:1440" ph="{...}" />
-                <marker date="1601074888693" expanded="true" signature="1498:1598" ph="{...}" />
-                <marker date="1601074888693" expanded="true" signature="1630:1954" ph="{...}" />
-                <marker date="1601074888693" expanded="true" signature="1979:2286" ph="{...}" />
-                <marker date="1601074888693" expanded="true" signature="2292:2364" ph="/* Why is all of this required to press one. simple. button. ... */" />
-                <marker date="1601074888693" expanded="true" signature="2401:2810" ph="{...}" />
-                <marker date="1601074888693" expanded="true" signature="2700:2804" ph="{...}" />
-                <marker date="1601074888693" expanded="true" signature="2850:3009" ph="{...}" />
-                <marker date="1601074888693" expanded="true" signature="2897:3003" ph="{...}" />
-                <marker date="1601074888693" expanded="true" signature="3015:3149" ph="/* Switch back and forth between switching and growing every time Primary is pressed. ... */" />
-                <marker date="1601074888693" expanded="true" signature="3185:3781" ph="{...}" />
-                <marker date="1601074888693" expanded="true" signature="3200:3494" ph="/* Get press down ... */" />
-                <marker date="1601074888693" expanded="true" signature="3535:3773" ph="{...}" />
-                <marker date="1601074888693" expanded="true" signature="3626:3680" ph="{...}" />
-                <marker date="1601074888693" expanded="true" signature="3711:3763" ph="{...}" />
-                <marker date="1601074888693" expanded="true" signature="3788:4317" ph="/* private void TriggerInputDetection() ... */" />
+                <marker date="1601084542070" expanded="false" signature="6:164" ph="..." />
+                <marker date="1601084542070" expanded="true" signature="202:4388" ph="{...}" />
+                <marker date="1601084542070" expanded="true" signature="862:1499" ph="{...}" />
+                <marker date="1601084542070" expanded="true" signature="1557:1657" ph="{...}" />
+                <marker date="1601084542070" expanded="true" signature="1689:2015" ph="{...}" />
+                <marker date="1601084542070" expanded="true" signature="2040:2349" ph="{...}" />
+                <marker date="1601084542070" expanded="true" signature="2355:2427" ph="/* Why is all of this required to press one. simple. button. ... */" />
+                <marker date="1601084542070" expanded="true" signature="2464:2873" ph="{...}" />
+                <marker date="1601084542070" expanded="true" signature="2763:2867" ph="{...}" />
+                <marker date="1601084542070" expanded="true" signature="2913:3072" ph="{...}" />
+                <marker date="1601084542070" expanded="true" signature="2960:3066" ph="{...}" />
+                <marker date="1601084542070" expanded="true" signature="3078:3212" ph="/* Switch back and forth between switching and growing every time Primary is pressed. ... */" />
+                <marker date="1601084542070" expanded="true" signature="3248:3850" ph="{...}" />
+                <marker date="1601084542070" expanded="true" signature="3263:3557" ph="/* Get press down ... */" />
+                <marker date="1601084542070" expanded="true" signature="3598:3698" ph="{...}" />
+                <marker date="1601084542070" expanded="true" signature="3733:3775" ph="{...}" />
+                <marker date="1601084542070" expanded="true" signature="3802:3842" ph="{...}" />
+                <marker date="1601084542070" expanded="true" signature="3857:4386" ph="/* private void TriggerInputDetection() ... */" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/XR/XRRig.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="768">
+              <caret line="135" column="60" lean-forward="true" selection-start-line="135" selection-start-column="60" selection-end-line="135" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>reticle</find>
+      <find>localScale</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>primaryIsUpFlag</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Testing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/XR/XRRig.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -121,12 +140,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601071056426</updated>
-      <workItem from="1601071077885" duration="3174000" />
+      <workItem from="1601071077885" duration="7252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3174000" />
+    <option name="totallyTimeSpent" value="7252000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -187,29 +206,36 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/XR/XRRig.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="135" column="60" lean-forward="true" selection-start-line="135" selection-start-column="60" selection-end-line="135" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Testing.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1312">
-          <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="55" selection-start-line="55" selection-end-line="55" selection-end-column="30" />
           <folding>
-            <marker date="1601074888693" expanded="false" signature="6:164" ph="..." />
-            <marker date="1601074888693" expanded="true" signature="202:4319" ph="{...}" />
-            <marker date="1601074888693" expanded="true" signature="854:1440" ph="{...}" />
-            <marker date="1601074888693" expanded="true" signature="1498:1598" ph="{...}" />
-            <marker date="1601074888693" expanded="true" signature="1630:1954" ph="{...}" />
-            <marker date="1601074888693" expanded="true" signature="1979:2286" ph="{...}" />
-            <marker date="1601074888693" expanded="true" signature="2292:2364" ph="/* Why is all of this required to press one. simple. button. ... */" />
-            <marker date="1601074888693" expanded="true" signature="2401:2810" ph="{...}" />
-            <marker date="1601074888693" expanded="true" signature="2700:2804" ph="{...}" />
-            <marker date="1601074888693" expanded="true" signature="2850:3009" ph="{...}" />
-            <marker date="1601074888693" expanded="true" signature="2897:3003" ph="{...}" />
-            <marker date="1601074888693" expanded="true" signature="3015:3149" ph="/* Switch back and forth between switching and growing every time Primary is pressed. ... */" />
-            <marker date="1601074888693" expanded="true" signature="3185:3781" ph="{...}" />
-            <marker date="1601074888693" expanded="true" signature="3200:3494" ph="/* Get press down ... */" />
-            <marker date="1601074888693" expanded="true" signature="3535:3773" ph="{...}" />
-            <marker date="1601074888693" expanded="true" signature="3626:3680" ph="{...}" />
-            <marker date="1601074888693" expanded="true" signature="3711:3763" ph="{...}" />
-            <marker date="1601074888693" expanded="true" signature="3788:4317" ph="/* private void TriggerInputDetection() ... */" />
+            <marker date="1601084542070" expanded="false" signature="6:164" ph="..." />
+            <marker date="1601084542070" expanded="true" signature="202:4388" ph="{...}" />
+            <marker date="1601084542070" expanded="true" signature="862:1499" ph="{...}" />
+            <marker date="1601084542070" expanded="true" signature="1557:1657" ph="{...}" />
+            <marker date="1601084542070" expanded="true" signature="1689:2015" ph="{...}" />
+            <marker date="1601084542070" expanded="true" signature="2040:2349" ph="{...}" />
+            <marker date="1601084542070" expanded="true" signature="2355:2427" ph="/* Why is all of this required to press one. simple. button. ... */" />
+            <marker date="1601084542070" expanded="true" signature="2464:2873" ph="{...}" />
+            <marker date="1601084542070" expanded="true" signature="2763:2867" ph="{...}" />
+            <marker date="1601084542070" expanded="true" signature="2913:3072" ph="{...}" />
+            <marker date="1601084542070" expanded="true" signature="2960:3066" ph="{...}" />
+            <marker date="1601084542070" expanded="true" signature="3078:3212" ph="/* Switch back and forth between switching and growing every time Primary is pressed. ... */" />
+            <marker date="1601084542070" expanded="true" signature="3248:3850" ph="{...}" />
+            <marker date="1601084542070" expanded="true" signature="3263:3557" ph="/* Get press down ... */" />
+            <marker date="1601084542070" expanded="true" signature="3598:3698" ph="{...}" />
+            <marker date="1601084542070" expanded="true" signature="3733:3775" ph="{...}" />
+            <marker date="1601084542070" expanded="true" signature="3802:3842" ph="{...}" />
+            <marker date="1601084542070" expanded="true" signature="3857:4386" ph="/* private void TriggerInputDetection() ... */" />
           </folding>
         </state>
       </provider>

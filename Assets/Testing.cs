@@ -23,11 +23,11 @@ public class Testing : MonoBehaviour
     private bool _shrinkOrGrow;
 
     //public bool triggerVal;
-    public bool primaryVal;
-    public bool primaryInput;
+    private bool primaryVal;
+    private bool primaryInput;
+    private bool shrinkOrGrow;
 
-    public int primaryIsUpFlag;
-    public bool shrinkOrGrow;
+    public GameObject reticlePrefab;
     
     // Start is called before the first frame update
     void Awake()
@@ -43,8 +43,9 @@ public class Testing : MonoBehaviour
         currentYOffset = XRRig_Script.cameraYOffset;
         
         lineLength = _rightLine.lineLength;
-        
-        currentReticleScale = _rightLine.reticle.transform.localScale;
+
+        currentReticleScale = reticlePrefab.transform.localScale;
+        _rightLine.reticle = _leftLine.reticle = reticlePrefab;
     }
 
     // Update is called once per frame
@@ -58,8 +59,8 @@ public class Testing : MonoBehaviour
 
     private void Shrink()
     {
-        player.localScale = new Vector3(0.1f,0.1f,0.1f);
-        XRRig_Script.cameraYOffset = currentYOffset/10;
+        player.localScale = new Vector3(0.2f,0.2f,0.2f);
+        //XRRig_Script.cameraYOffset = currentYOffset/10;
         _rightLine.lineLength = _leftLine.lineLength = lineLength * 10;
         _rightLine.reticle.transform.localScale =
             _leftLine.reticle.transform.localScale = currentReticleScale/10;
@@ -68,7 +69,7 @@ public class Testing : MonoBehaviour
     private void Grow()
     {
         player.localScale = new Vector3(1f,1f,1f);
-        XRRig_Script.cameraYOffset = currentYOffset;
+        //XRRig_Script.cameraYOffset = currentYOffset;
         _rightLine.lineLength = _leftLine.lineLength = lineLength;
         _rightLine.reticle.transform.localScale =
             _leftLine.reticle.transform.localScale = currentReticleScale;
@@ -118,15 +119,16 @@ public class Testing : MonoBehaviour
         if (!primaryInput && primaryVal)
         {
             shrinkOrGrow = !shrinkOrGrow;
-            if (shrinkOrGrow == false)
-            {
-                Shrink();
-            }
+            InputTracking.Recenter();
+        }
+        if (shrinkOrGrow == false)
+        {
+            Shrink();
+        }
 
-            if (shrinkOrGrow)
-            {
-                Grow();
-            }
+        if (shrinkOrGrow)
+        {
+            Grow();
         }
 
 
