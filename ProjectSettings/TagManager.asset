@@ -12,6 +12,7 @@ TagManager:
   - GoldenBall
   - Cube
   - Platform
+  - TinyGround
   layers:
   - Default
   - TransparentFX
@@ -27,8 +28,8 @@ TagManager:
   - GoldenBall
   - Cube
   - GrabbingLayer
-  - 
-  - 
+  - TinyFloor
+  - Floor
   - 
   - 
   - 

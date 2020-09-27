@@ -10,11 +10,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Testing.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="160">
+              <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
               <folding>
                 <marker date="1601091203307" expanded="false" signature="6:164" ph="..." />
                 <marker date="1601091203307" expanded="true" signature="247:5334" ph="{...}" />
@@ -35,6 +35,23 @@
                 <marker date="1601091203307" expanded="true" signature="4375:4541" ph="/* Using InputTrackingRecenter resets the angle each time it's used. ... */" />
                 <marker date="1601091203307" expanded="true" signature="4577:4792" ph="{...}" />
                 <marker date="1601091203307" expanded="false" signature="4803:5332" ph="/* private void TriggerInputDetection() ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1600040215724" expanded="false" signature="6:120" ph="..." />
+                <marker date="1600040215724" expanded="true" signature="163:1070" ph="{...}" />
+                <marker date="1600040215724" expanded="true" signature="398:487" ph="{...}" />
+                <marker date="1600040215724" expanded="true" signature="520:786" ph="{...}" />
+                <marker date="1600040215724" expanded="true" signature="566:780" ph="{...}" />
+                <marker date="1600040215724" expanded="true" signature="820:1068" ph="{...}" />
+                <marker date="1600040215724" expanded="true" signature="971:1024" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -67,6 +84,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Testing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/XR/XRRig.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -78,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-7" />
     <option name="width" value="1294" />
     <option name="height" value="1407" />
@@ -144,12 +162,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601071056426</updated>
-      <workItem from="1601071077885" duration="12975000" />
+      <workItem from="1601071077885" duration="13673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12975000" />
+    <option name="totallyTimeSpent" value="13673000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -161,7 +179,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1407" extended-state="0" />
+    <frame x="-7" y="0" width="1294" height="1407" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -226,8 +244,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Testing.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="160">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
           <folding>
             <marker date="1601091203307" expanded="false" signature="6:164" ph="..." />
             <marker date="1601091203307" expanded="true" signature="247:5334" ph="{...}" />
@@ -248,6 +266,21 @@
             <marker date="1601091203307" expanded="true" signature="4375:4541" ph="/* Using InputTrackingRecenter resets the angle each time it's used. ... */" />
             <marker date="1601091203307" expanded="true" signature="4577:4792" ph="{...}" />
             <marker date="1601091203307" expanded="false" signature="4803:5332" ph="/* private void TriggerInputDetection() ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1600040215724" expanded="false" signature="6:120" ph="..." />
+            <marker date="1600040215724" expanded="true" signature="163:1070" ph="{...}" />
+            <marker date="1600040215724" expanded="true" signature="398:487" ph="{...}" />
+            <marker date="1600040215724" expanded="true" signature="520:786" ph="{...}" />
+            <marker date="1600040215724" expanded="true" signature="566:780" ph="{...}" />
+            <marker date="1600040215724" expanded="true" signature="820:1068" ph="{...}" />
+            <marker date="1600040215724" expanded="true" signature="971:1024" ph="{...}" />
           </folding>
         </state>
       </provider>
