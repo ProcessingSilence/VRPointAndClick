@@ -10,7 +10,10 @@
           <e p="AudioCredits.txt" t="Include" />
         </e>
         <e p="Graphics" t="Include">
+          <e p="LunchboxFontSource.txt" t="Include" />
+          <e p="OrangeModelSource.txt" t="Include" />
           <e p="Readme(PublicDomain).txt" t="Include" />
+          <e p="Terms of Use End User Lisence Agreement.txt" t="Include" />
         </e>
         <e p="Samples" t="Include">
           <e p="XR Plugin Management" t="Include">
@@ -37,6 +40,7 @@
           <e p="CubeCounter.cs" t="Include" />
           <e p="Explosive.cs" t="Include" />
           <e p="GameStats.cs" t="Include" />
+          <e p="GoalPedestal.cs" t="Include" />
           <e p="GoldenBall.cs" t="Include" />
           <e p="GravityEnabler.cs" t="Include" />
           <e p="Instructions.cs" t="Include" />

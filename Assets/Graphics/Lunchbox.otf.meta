@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 3e69a6255b7485940b77f6ed5a01f42a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: LunchBox
+  fontNames:
+  - LunchBox
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 8c449e7449e4cba4f95a7500627361fb, type: 3}
+  - {fileID: 12800000, guid: 2cf84ce7ee1dffc479ece24c1edeae45, type: 3}
+  - {fileID: 12800000, guid: ee4af47e4361eda49a29d2380396b401, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
