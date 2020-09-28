@@ -2960,7 +2960,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 261b23cf41536924094ec495ad1a2910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  XrSocketInteractor_script: {fileID: 5853320100345163097}
   nextScene: Baseballz
 --- !u!23 &5853320099005463980
 MeshRenderer:
@@ -3064,9 +3063,6 @@ MonoBehaviour:
       m_Calls: []
   m_OnSelectEnter:
     m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExit:
-    m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 5853320099005463978}
         m_MethodName: LoadScene
@@ -3079,6 +3075,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  m_OnSelectExit:
+    m_PersistentCalls:
+      m_Calls: []
   m_ShowInteractableHoverMeshes: 1
   m_InteractableHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
