@@ -44,14 +44,16 @@
           <e p="GoldenBall.cs" t="Include" />
           <e p="GravityEnabler.cs" t="Include" />
           <e p="Instructions.cs" t="Include" />
+          <e p="NewImageEffectShader.shader" t="Include" />
           <e p="PedestalMove.cs" t="Include" />
           <e p="ReticleScaleMaintainer.cs" t="Include" />
           <e p="ShowPlatformOnPlace.cs" t="Include" />
+          <e p="Testing.cs" t="Include" />
+          <e p="textDisappear.cs" t="Include" />
           <e p="Timer.cs" t="Include" />
           <e p="TrailEnabler.cs" t="Include" />
         </e>
         <e p="SocketTest.cs" t="Include" />
-        <e p="Testing.cs" t="Include" />
         <e p="TutorialScenes" t="Include">
           <e p="ColorChanger.cs" t="Include" />
           <e p="README_PROF.txt" t="Include" />
