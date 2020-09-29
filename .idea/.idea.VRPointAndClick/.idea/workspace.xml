@@ -8,52 +8,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/Assets/Scripts/Testing.cs">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="80">
-                    <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-                    <folding>
-                      <marker date="1601091203307" expanded="false" signature="6:164" ph="..." />
-                      <marker date="1601091203307" expanded="true" signature="247:5334" ph="{...}" />
-                      <marker date="1601091203307" expanded="true" signature="1096:1151" ph="{...}" />
-                      <marker date="1601091203307" expanded="true" signature="1222:2000" ph="{...}" />
-                      <marker date="1601091203307" expanded="true" signature="2058:2158" ph="{...}" />
-                      <marker date="1601091203307" expanded="true" signature="2190:2648" ph="{...}" />
-                      <marker date="1601091203307" expanded="true" signature="2673:3115" ph="{...}" />
-                      <marker date="1601091203307" expanded="true" signature="3153:3562" ph="{...}" />
-                      <marker date="1601091203307" expanded="true" signature="3452:3556" ph="{...}" />
-                      <marker date="1601091203307" expanded="true" signature="3602:3761" ph="{...}" />
-                      <marker date="1601091203307" expanded="true" signature="3649:3755" ph="{...}" />
-                      <marker date="1601091203307" expanded="true" signature="3767:3901" ph="/* Switch back and forth between switching and growing every time Primary is pressed. ... */" />
-                      <marker date="1601091203307" expanded="true" signature="3937:4369" ph="{...}" />
-                      <marker date="1601091203307" expanded="true" signature="3984:4078" ph="{...}" />
-                      <marker date="1601091203307" expanded="true" signature="4156:4231" ph="{...}" />
-                      <marker date="1601091203307" expanded="true" signature="4291:4363" ph="{...}" />
-                      <marker date="1601091203307" expanded="true" signature="4375:4541" ph="/* Using InputTrackingRecenter resets the angle each time it's used. ... */" />
-                      <marker date="1601091203307" expanded="true" signature="4577:4792" ph="{...}" />
-                      <marker date="1601091203307" expanded="true" signature="4803:5332" ph="/* private void TriggerInputDetection() ... */" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextDisappear.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="897">
+            <state relative-caret-position="1008">
               <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
               <folding>
                 <marker date="1601326009866" expanded="true" signature="0:152" ph="/* Gets text meshes and fades them all out. ... */" />
@@ -78,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoverPedestal.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
+            <state>
               <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
               <folding>
                 <marker date="1601333902562" expanded="false" signature="6:79" ph="..." />
@@ -94,24 +54,27 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+            <state relative-caret-position="289">
+              <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
               <folding>
-                <marker date="1601348297962" expanded="true" signature="0:164" ph="/* Moves platform from beginning and end whenever &quot;startMove&quot; is set to true. ... */" />
-                <marker date="1601348297962" expanded="true" signature="171:243" ph="..." />
-                <marker date="1601348297962" expanded="true" signature="286:1814" ph="{...}" />
-                <marker date="1601348297962" expanded="true" signature="516:614" ph="{...}" />
-                <marker date="1601348297962" expanded="true" signature="672:797" ph="{...}" />
-                <marker date="1601348297962" expanded="true" signature="711:791" ph="{...}" />
-                <marker date="1601348297962" expanded="true" signature="803:892" ph="/* Only allow movement AFTER platform is at destination. ... */" />
-                <marker date="1601348297962" expanded="true" signature="924:1012" ph="{...}" />
-                <marker date="1601348297962" expanded="true" signature="954:1006" ph="{...}" />
-                <marker date="1601348297962" expanded="true" signature="1057:1430" ph="{...}" />
-                <marker date="1601348297962" expanded="true" signature="1139:1253" ph="{...}" />
-                <marker date="1601348297962" expanded="true" signature="1334:1424" ph="{...}" />
-                <marker date="1601348297962" expanded="true" signature="1465:1812" ph="{...}" />
-                <marker date="1601348297962" expanded="true" signature="1532:1646" ph="{...}" />
-                <marker date="1601348297962" expanded="true" signature="1712:1803" ph="{...}" />
+                <marker date="1601411283272" expanded="true" signature="0:157" ph="/* Moves platform from beginning and end whenever atPosition == false. ... */" />
+                <marker date="1601411283272" expanded="false" signature="164:236" ph="..." />
+                <marker date="1601411283272" expanded="true" signature="279:2401" ph="{...}" />
+                <marker date="1601411283272" expanded="true" signature="625:723" ph="{...}" />
+                <marker date="1601411283272" expanded="true" signature="781:1016" ph="{...}" />
+                <marker date="1601411283272" expanded="true" signature="813:896" ph="{...}" />
+                <marker date="1601411283272" expanded="true" signature="930:1010" ph="{...}" />
+                <marker date="1601411283272" expanded="true" signature="1022:1111" ph="/* Starts platform movement. ... */" />
+                <marker date="1601411283272" expanded="true" signature="1143:1257" ph="{...}" />
+                <marker date="1601411283272" expanded="true" signature="1173:1251" ph="{...}" />
+                <marker date="1601411283272" expanded="true" signature="1293:1817" ph="{...}" />
+                <marker date="1601411283272" expanded="true" signature="1331:1810" ph="{...}" />
+                <marker date="1601411283272" expanded="true" signature="1474:1532" ph="{...}" />
+                <marker date="1601411283272" expanded="true" signature="1648:1797" ph="{...}" />
+                <marker date="1601411283272" expanded="true" signature="1856:2397" ph="{...}" />
+                <marker date="1601411283272" expanded="true" signature="1903:2390" ph="{...}" />
+                <marker date="1601411283272" expanded="true" signature="2046:2104" ph="{...}" />
+                <marker date="1601411283272" expanded="true" signature="2226:2380" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -304,12 +267,13 @@
       <option name="presentableId" value="Default" />
       <updated>1601071056426</updated>
       <workItem from="1601071077885" duration="21529000" />
-      <workItem from="1601325576016" duration="4614000" />
+      <workItem from="1601325576016" duration="7583000" />
+      <workItem from="1601409819802" duration="1462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26143000" />
+    <option name="totallyTimeSpent" value="30574000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,6 +337,72 @@
     <entry file="file://$PROJECT_DIR$/Assets/TutorialScenes/ReticleScaleMaintainer.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SpriteOverEverything.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Testing.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GoalPedestal1.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Testing.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <marker date="1601091203307" expanded="false" signature="6:164" ph="..." />
+            <marker date="1601091203307" expanded="true" signature="247:5334" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="1096:1151" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="1222:2000" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="2058:2158" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="2190:2648" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="2673:3115" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="3153:3562" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="3452:3556" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="3602:3761" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="3649:3755" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="3767:3901" ph="/* Switch back and forth between switching and growing every time Primary is pressed. ... */" />
+            <marker date="1601091203307" expanded="true" signature="3937:4369" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="3984:4078" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="4156:4231" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="4291:4363" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="4375:4541" ph="/* Using InputTrackingRecenter resets the angle each time it's used. ... */" />
+            <marker date="1601091203307" expanded="true" signature="4577:4792" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="4803:5332" ph="/* private void TriggerInputDetection() ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextDisappear.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+          <folding>
+            <marker date="1601326009866" expanded="true" signature="0:152" ph="/* Gets text meshes and fades them all out. ... */" />
+            <marker date="1601326009866" expanded="false" signature="159:235" ph="..." />
+            <marker date="1601326009866" expanded="true" signature="278:2061" ph="{...}" />
+            <marker date="1601326009866" expanded="true" signature="517:587" ph="{...}" />
+            <marker date="1601326009866" expanded="true" signature="634:1211" ph="{...}" />
+            <marker date="1601326009866" expanded="true" signature="941:1046" ph="{...}" />
+            <marker date="1601326009866" expanded="true" signature="1094:1201" ph="{...}" />
+            <marker date="1601326009866" expanded="true" signature="1244:1729" ph="{...}" />
+            <marker date="1601326009866" expanded="true" signature="1326:1420" ph="{...}" />
+            <marker date="1601326009866" expanded="true" signature="1524:1637" ph="{...}" />
+            <marker date="1601326009866" expanded="true" signature="1679:1723" ph="{...}" />
+            <marker date="1601326009866" expanded="true" signature="1833:2059" ph="{...}" />
+            <marker date="1601326009866" expanded="true" signature="1886:2053" ph="{...}" />
+            <marker date="1601326009866" expanded="true" signature="1909:1977" ph="/* Color fadedColor = texts[i].color; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoverPedestal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <marker date="1601333902562" expanded="false" signature="6:79" ph="..." />
+            <marker date="1601333902562" expanded="true" signature="123:553" ph="{...}" />
+            <marker date="1601333902562" expanded="true" signature="258:405" ph="{...}" />
+            <marker date="1601333902562" expanded="true" signature="299:399" ph="{...}" />
+            <marker date="1601333902562" expanded="true" signature="437:547" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -442,98 +472,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Testing.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <marker date="1601091203307" expanded="false" signature="6:164" ph="..." />
-            <marker date="1601091203307" expanded="true" signature="247:5334" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="1096:1151" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="1222:2000" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="2058:2158" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="2190:2648" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="2673:3115" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="3153:3562" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="3452:3556" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="3602:3761" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="3649:3755" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="3767:3901" ph="/* Switch back and forth between switching and growing every time Primary is pressed. ... */" />
-            <marker date="1601091203307" expanded="true" signature="3937:4369" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="3984:4078" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="4156:4231" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="4291:4363" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="4375:4541" ph="/* Using InputTrackingRecenter resets the angle each time it's used. ... */" />
-            <marker date="1601091203307" expanded="true" signature="4577:4792" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="4803:5332" ph="/* private void TriggerInputDetection() ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextDisappear.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
-          <folding>
-            <marker date="1601326009866" expanded="true" signature="0:152" ph="/* Gets text meshes and fades them all out. ... */" />
-            <marker date="1601326009866" expanded="false" signature="159:235" ph="..." />
-            <marker date="1601326009866" expanded="true" signature="278:2061" ph="{...}" />
-            <marker date="1601326009866" expanded="true" signature="517:587" ph="{...}" />
-            <marker date="1601326009866" expanded="true" signature="634:1211" ph="{...}" />
-            <marker date="1601326009866" expanded="true" signature="941:1046" ph="{...}" />
-            <marker date="1601326009866" expanded="true" signature="1094:1201" ph="{...}" />
-            <marker date="1601326009866" expanded="true" signature="1244:1729" ph="{...}" />
-            <marker date="1601326009866" expanded="true" signature="1326:1420" ph="{...}" />
-            <marker date="1601326009866" expanded="true" signature="1524:1637" ph="{...}" />
-            <marker date="1601326009866" expanded="true" signature="1679:1723" ph="{...}" />
-            <marker date="1601326009866" expanded="true" signature="1833:2059" ph="{...}" />
-            <marker date="1601326009866" expanded="true" signature="1886:2053" ph="{...}" />
-            <marker date="1601326009866" expanded="true" signature="1909:1977" ph="/* Color fadedColor = texts[i].color; ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GoalPedestal1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoverPedestal.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <marker date="1601333902562" expanded="false" signature="6:79" ph="..." />
-            <marker date="1601333902562" expanded="true" signature="123:553" ph="{...}" />
-            <marker date="1601333902562" expanded="true" signature="258:405" ph="{...}" />
-            <marker date="1601333902562" expanded="true" signature="299:399" ph="{...}" />
-            <marker date="1601333902562" expanded="true" signature="437:547" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+        <state relative-caret-position="289">
+          <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
           <folding>
-            <marker date="1601348297962" expanded="true" signature="0:164" ph="/* Moves platform from beginning and end whenever &quot;startMove&quot; is set to true. ... */" />
-            <marker date="1601348297962" expanded="true" signature="171:243" ph="..." />
-            <marker date="1601348297962" expanded="true" signature="286:1814" ph="{...}" />
-            <marker date="1601348297962" expanded="true" signature="516:614" ph="{...}" />
-            <marker date="1601348297962" expanded="true" signature="672:797" ph="{...}" />
-            <marker date="1601348297962" expanded="true" signature="711:791" ph="{...}" />
-            <marker date="1601348297962" expanded="true" signature="803:892" ph="/* Only allow movement AFTER platform is at destination. ... */" />
-            <marker date="1601348297962" expanded="true" signature="924:1012" ph="{...}" />
-            <marker date="1601348297962" expanded="true" signature="954:1006" ph="{...}" />
-            <marker date="1601348297962" expanded="true" signature="1057:1430" ph="{...}" />
-            <marker date="1601348297962" expanded="true" signature="1139:1253" ph="{...}" />
-            <marker date="1601348297962" expanded="true" signature="1334:1424" ph="{...}" />
-            <marker date="1601348297962" expanded="true" signature="1465:1812" ph="{...}" />
-            <marker date="1601348297962" expanded="true" signature="1532:1646" ph="{...}" />
-            <marker date="1601348297962" expanded="true" signature="1712:1803" ph="{...}" />
+            <marker date="1601411283272" expanded="true" signature="0:157" ph="/* Moves platform from beginning and end whenever atPosition == false. ... */" />
+            <marker date="1601411283272" expanded="false" signature="164:236" ph="..." />
+            <marker date="1601411283272" expanded="true" signature="279:2401" ph="{...}" />
+            <marker date="1601411283272" expanded="true" signature="625:723" ph="{...}" />
+            <marker date="1601411283272" expanded="true" signature="781:1016" ph="{...}" />
+            <marker date="1601411283272" expanded="true" signature="813:896" ph="{...}" />
+            <marker date="1601411283272" expanded="true" signature="930:1010" ph="{...}" />
+            <marker date="1601411283272" expanded="true" signature="1022:1111" ph="/* Starts platform movement. ... */" />
+            <marker date="1601411283272" expanded="true" signature="1143:1257" ph="{...}" />
+            <marker date="1601411283272" expanded="true" signature="1173:1251" ph="{...}" />
+            <marker date="1601411283272" expanded="true" signature="1293:1817" ph="{...}" />
+            <marker date="1601411283272" expanded="true" signature="1331:1810" ph="{...}" />
+            <marker date="1601411283272" expanded="true" signature="1474:1532" ph="{...}" />
+            <marker date="1601411283272" expanded="true" signature="1648:1797" ph="{...}" />
+            <marker date="1601411283272" expanded="true" signature="1856:2397" ph="{...}" />
+            <marker date="1601411283272" expanded="true" signature="1903:2390" ph="{...}" />
+            <marker date="1601411283272" expanded="true" signature="2046:2104" ph="{...}" />
+            <marker date="1601411283272" expanded="true" signature="2226:2380" ph="{...}" />
           </folding>
         </state>
       </provider>

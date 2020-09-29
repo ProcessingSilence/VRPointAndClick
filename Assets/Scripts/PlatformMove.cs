@@ -1,4 +1,4 @@
-﻿// Moves platform from beginning and end whenever "startMove" is set to true.
+﻿// Moves platform from beginning and end whenever atPosition == false.
 // This script gets called from MoverPedestal.cs whenever an object enters its socket.
 using System.Collections;
 using System.Collections.Generic;
@@ -7,13 +7,18 @@ using UnityEngine;
 public class PlatformMove : MonoBehaviour
 {
     // false: go to beginning, true: go to end
-    public bool goToBeginningOrEnd;
+    public bool goToBeginningOrEnd = true;
     public bool atPosition = true;
 
     public float speed;
     private Vector3 beginning, end;
+    private Vector3 currentBeginning, currentEnd;
 
     public Vector3 endOffset;
+
+    public float fraction;
+
+    public bool testMovement;
 
     void Awake()
     {
@@ -24,6 +29,12 @@ public class PlatformMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (testMovement)
+        {
+            testMovement = false;
+            BeginMovement();
+        }
+
         if (atPosition == false)
         {
             BeginningToEnd();
@@ -37,35 +48,52 @@ public class PlatformMove : MonoBehaviour
     {
         if (atPosition)
         {
+            fraction = 0;
             atPosition = false;
         }
     }
-
-    
+ 
+    private void BeginningToEnd()
+    {
+        if (goToBeginningOrEnd && atPosition == false)
+        {
+            Debug.Log("Moving from beginning to end");
+            fraction += Time.deltaTime * speed;
+            if (fraction > 1)
+            {
+                fraction = 1;
+            }
+            transform.position = Vector3.Lerp(beginning, end, fraction);
+            if (transform.position == end)
+            {
+                atPosition = true;
+                goToBeginningOrEnd = false;
+                transform.position = end;
+            }   
+        }
+        else if (goToBeginningOrEnd == false && atPosition == false)
+        {
+            Debug.Log("Moving from end to beginning");
+            fraction += Time.deltaTime * speed;
+            if (fraction > 1)
+            {
+                fraction = 1;
+            }
+            transform.position = Vector3.Lerp(end, beginning, fraction);
+            if (transform.position == beginning)
+            {
+                atPosition = true;
+                goToBeginningOrEnd = true;
+                transform.position = beginning;
+            }
+        }
+    }
     
     private void EndToBeginning()
     {
-        if (goToBeginningOrEnd == false && transform.position != beginning)
-        {
-            transform.position = Vector3.MoveTowards(end, beginning, speed * Time.deltaTime);
-        }
-        else if (goToBeginningOrEnd == false && transform.position == beginning)
-        {
-            atPosition = true;
-            goToBeginningOrEnd = true;
-        }
+
+
     }
 
-    private void BeginningToEnd()
-    {
-        if (goToBeginningOrEnd && transform.position != end)
-        {
-            transform.position = Vector3.MoveTowards(beginning, end, speed * Time.deltaTime);
-        }
-        else if (goToBeginningOrEnd && transform.position == end)
-        {
-            atPosition = true;
-            goToBeginningOrEnd = false;
-        }   
-    }
+
 }
