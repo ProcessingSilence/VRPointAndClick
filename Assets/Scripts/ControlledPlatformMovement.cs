@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlatformMove : MonoBehaviour
+public class ControlledPlatformMovement : MonoBehaviour
 {
     // false: go to beginning, true: go to end
     public bool goToBeginningOrEnd = true;
@@ -12,12 +12,14 @@ public class PlatformMove : MonoBehaviour
 
     public float speed;
     private Vector3 beginning, end;
+    private Vector3 currentBeginning, currentEnd;
 
     public Vector3 endOffset;
 
     public float fraction;
 
     public bool testMovement;
+    
 
     void Awake()
     {
@@ -86,4 +88,7 @@ public class PlatformMove : MonoBehaviour
             }
         }
     }
+
+
+
 }

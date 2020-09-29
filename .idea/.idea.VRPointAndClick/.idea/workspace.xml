@@ -36,45 +36,56 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoverPedestal.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="980">
+              <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
               <folding>
-                <marker date="1601333902562" expanded="false" signature="6:79" ph="..." />
-                <marker date="1601333902562" expanded="true" signature="123:553" ph="{...}" />
-                <marker date="1601333902562" expanded="true" signature="258:405" ph="{...}" />
-                <marker date="1601333902562" expanded="true" signature="299:399" ph="{...}" />
-                <marker date="1601333902562" expanded="true" signature="437:547" ph="{...}" />
+                <marker date="1601414298315" expanded="true" signature="0:129" ph="/* Moves platform from beginning and end whenever atPosition == false. ... */" />
+                <marker date="1601414298315" expanded="false" signature="136:208" ph="..." />
+                <marker date="1601414298315" expanded="true" signature="251:2277" ph="{...}" />
+                <marker date="1601414298315" expanded="true" signature="547:645" ph="{...}" />
+                <marker date="1601414298315" expanded="true" signature="703:902" ph="{...}" />
+                <marker date="1601414298315" expanded="true" signature="735:818" ph="{...}" />
+                <marker date="1601414298315" expanded="true" signature="852:896" ph="{...}" />
+                <marker date="1601414298315" expanded="true" signature="908:997" ph="/* Starts platform movement. ... */" />
+                <marker date="1601414298315" expanded="true" signature="1029:1143" ph="{...}" />
+                <marker date="1601414298315" expanded="true" signature="1059:1137" ph="{...}" />
+                <marker date="1601414298315" expanded="true" signature="1173:2275" ph="{...}" />
+                <marker date="1601414298315" expanded="true" signature="1234:1713" ph="{...}" />
+                <marker date="1601414298315" expanded="true" signature="1377:1435" ph="{...}" />
+                <marker date="1601414298315" expanded="true" signature="1551:1700" ph="{...}" />
+                <marker date="1601414298315" expanded="true" signature="1782:2269" ph="{...}" />
+                <marker date="1601414298315" expanded="true" signature="1925:1983" ph="{...}" />
+                <marker date="1601414298315" expanded="true" signature="2105:2259" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ControlledPlatformMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+            <state relative-caret-position="944">
+              <caret line="61" column="29" lean-forward="true" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
               <folding>
-                <marker date="1601411283272" expanded="true" signature="0:157" ph="/* Moves platform from beginning and end whenever atPosition == false. ... */" />
-                <marker date="1601411283272" expanded="false" signature="164:236" ph="..." />
-                <marker date="1601411283272" expanded="true" signature="279:2401" ph="{...}" />
-                <marker date="1601411283272" expanded="true" signature="625:723" ph="{...}" />
-                <marker date="1601411283272" expanded="true" signature="781:1016" ph="{...}" />
-                <marker date="1601411283272" expanded="true" signature="813:896" ph="{...}" />
-                <marker date="1601411283272" expanded="true" signature="930:1010" ph="{...}" />
-                <marker date="1601411283272" expanded="true" signature="1022:1111" ph="/* Starts platform movement. ... */" />
-                <marker date="1601411283272" expanded="true" signature="1143:1257" ph="{...}" />
-                <marker date="1601411283272" expanded="true" signature="1173:1251" ph="{...}" />
-                <marker date="1601411283272" expanded="true" signature="1293:1817" ph="{...}" />
-                <marker date="1601411283272" expanded="true" signature="1331:1810" ph="{...}" />
-                <marker date="1601411283272" expanded="true" signature="1474:1532" ph="{...}" />
-                <marker date="1601411283272" expanded="true" signature="1648:1797" ph="{...}" />
-                <marker date="1601411283272" expanded="true" signature="1856:2397" ph="{...}" />
-                <marker date="1601411283272" expanded="true" signature="1903:2390" ph="{...}" />
-                <marker date="1601411283272" expanded="true" signature="2046:2104" ph="{...}" />
-                <marker date="1601411283272" expanded="true" signature="2226:2380" ph="{...}" />
+                <marker date="1601413705076" expanded="true" signature="0:129" ph="/* Moves platform from beginning and end whenever atPosition == false. ... */" />
+                <marker date="1601413705076" expanded="false" signature="136:208" ph="..." />
+                <marker date="1601413705076" expanded="true" signature="265:2349" ph="{...}" />
+                <marker date="1601413705076" expanded="true" signature="616:714" ph="{...}" />
+                <marker date="1601413705076" expanded="true" signature="772:971" ph="{...}" />
+                <marker date="1601413705076" expanded="true" signature="804:887" ph="{...}" />
+                <marker date="1601413705076" expanded="true" signature="921:965" ph="{...}" />
+                <marker date="1601413705076" expanded="true" signature="977:1066" ph="/* Starts platform movement. ... */" />
+                <marker date="1601413705076" expanded="true" signature="1098:1212" ph="{...}" />
+                <marker date="1601413705076" expanded="true" signature="1128:1206" ph="{...}" />
+                <marker date="1601413705076" expanded="true" signature="1242:2344" ph="{...}" />
+                <marker date="1601413705076" expanded="true" signature="1303:1782" ph="{...}" />
+                <marker date="1601413705076" expanded="true" signature="1446:1504" ph="{...}" />
+                <marker date="1601413705076" expanded="true" signature="1620:1769" ph="{...}" />
+                <marker date="1601413705076" expanded="true" signature="1851:2338" ph="{...}" />
+                <marker date="1601413705076" expanded="true" signature="1994:2052" ph="{...}" />
+                <marker date="1601413705076" expanded="true" signature="2174:2328" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -83,7 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="32">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding>
                 <marker date="1600040215724" expanded="false" signature="6:120" ph="..." />
                 <marker date="1600040215724" expanded="true" signature="163:1070" ph="{...}" />
@@ -92,6 +104,31 @@
                 <marker date="1600040215724" expanded="true" signature="566:780" ph="{...}" />
                 <marker date="1600040215724" expanded="true" signature="820:1068" ph="{...}" />
                 <marker date="1600040215724" expanded="true" signature="971:1024" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMovePlatform.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+              <folding>
+                <marker date="1601415206568" expanded="true" signature="0:206" ph="/* When activated, move platform in one direction. Move in opposite direction upon being activated again. ... */" />
+                <marker date="1601415206568" expanded="true" signature="213:286" ph="..." />
+                <marker date="1601415206568" expanded="true" signature="337:2074" ph="{...}" />
+                <marker date="1601415206568" expanded="true" signature="604:702" ph="{...}" />
+                <marker date="1601415206568" expanded="true" signature="760:940" ph="{...}" />
+                <marker date="1601415206568" expanded="true" signature="792:910" ph="{...}" />
+                <marker date="1601415206568" expanded="true" signature="946:1035" ph="/* Starts platform movement. ... */" />
+                <marker date="1601415206568" expanded="true" signature="1067:1219" ph="{...}" />
+                <marker date="1601415206568" expanded="true" signature="1101:1213" ph="{...}" />
+                <marker date="1601415206568" expanded="true" signature="1249:2072" ph="{...}" />
+                <marker date="1601415206568" expanded="true" signature="1315:1646" ph="{...}" />
+                <marker date="1601415206568" expanded="true" signature="1524:1633" ph="{...}" />
+                <marker date="1601415206568" expanded="true" signature="1720:2066" ph="{...}" />
+                <marker date="1601415206568" expanded="true" signature="1941:2056" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -173,6 +210,7 @@
       <find>currentReticle</find>
       <find>triggerInput</find>
       <find>goTobeginningOrEnd</find>
+      <find>BeginningToEnd</find>
     </findStrings>
     <replaceStrings>
       <replace>primaryIsUpFlag</replace>
@@ -180,19 +218,21 @@
       <replace>lineLength</replace>
       <replace>_triggerInput</replace>
       <replace>goToBeginningOrEnd</replace>
+      <replace>Movement</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMovePlatform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Instructions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewImageEffectShader.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ControlledPlatformMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Testing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GoalPedestal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoverPedestal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/XR/XRRig.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextDisappear.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -206,7 +246,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/textDisappear.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextDisappear.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoverPedestal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ControlledPlatformMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PedestalMovePlatform.cs" />
       </list>
     </option>
   </component>
@@ -268,12 +311,12 @@
       <updated>1601071056426</updated>
       <workItem from="1601071077885" duration="21529000" />
       <workItem from="1601325576016" duration="7583000" />
-      <workItem from="1601409819802" duration="1462000" />
+      <workItem from="1601409819802" duration="5229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30574000" />
+    <option name="totallyTimeSpent" value="34341000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,51 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoverPedestal.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <marker date="1601333902562" expanded="false" signature="6:79" ph="..." />
-            <marker date="1601333902562" expanded="true" signature="123:553" ph="{...}" />
-            <marker date="1601333902562" expanded="true" signature="258:405" ph="{...}" />
-            <marker date="1601333902562" expanded="true" signature="299:399" ph="{...}" />
-            <marker date="1601333902562" expanded="true" signature="437:547" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1600040215724" expanded="false" signature="6:120" ph="..." />
-            <marker date="1600040215724" expanded="true" signature="163:1070" ph="{...}" />
-            <marker date="1600040215724" expanded="true" signature="398:487" ph="{...}" />
-            <marker date="1600040215724" expanded="true" signature="520:786" ph="{...}" />
-            <marker date="1600040215724" expanded="true" signature="566:780" ph="{...}" />
-            <marker date="1600040215724" expanded="true" signature="820:1068" ph="{...}" />
-            <marker date="1600040215724" expanded="true" signature="971:1024" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Instructions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1600128360073" expanded="false" signature="6:78" ph="..." />
-            <marker date="1600128360073" expanded="true" signature="121:1262" ph="{...}" />
-            <marker date="1600128360073" expanded="true" signature="353:562" ph="{...}" />
-            <marker date="1600128360073" expanded="true" signature="633:810" ph="{...}" />
-            <marker date="1600128360073" expanded="true" signature="868:1065" ph="{...}" />
-            <marker date="1600128360073" expanded="true" signature="906:1059" ph="{...}" />
-            <marker date="1600128360073" expanded="true" signature="1088:1260" ph="{...}" />
-            <marker date="1600128360073" expanded="true" signature="1130:1254" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GoalPedestal.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -472,29 +470,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ControlledPlatformMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="944">
+          <caret line="61" column="29" lean-forward="true" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+          <folding>
+            <marker date="1601413705076" expanded="true" signature="0:129" ph="/* Moves platform from beginning and end whenever atPosition == false. ... */" />
+            <marker date="1601413705076" expanded="false" signature="136:208" ph="..." />
+            <marker date="1601413705076" expanded="true" signature="265:2349" ph="{...}" />
+            <marker date="1601413705076" expanded="true" signature="616:714" ph="{...}" />
+            <marker date="1601413705076" expanded="true" signature="772:971" ph="{...}" />
+            <marker date="1601413705076" expanded="true" signature="804:887" ph="{...}" />
+            <marker date="1601413705076" expanded="true" signature="921:965" ph="{...}" />
+            <marker date="1601413705076" expanded="true" signature="977:1066" ph="/* Starts platform movement. ... */" />
+            <marker date="1601413705076" expanded="true" signature="1098:1212" ph="{...}" />
+            <marker date="1601413705076" expanded="true" signature="1128:1206" ph="{...}" />
+            <marker date="1601413705076" expanded="true" signature="1242:2344" ph="{...}" />
+            <marker date="1601413705076" expanded="true" signature="1303:1782" ph="{...}" />
+            <marker date="1601413705076" expanded="true" signature="1446:1504" ph="{...}" />
+            <marker date="1601413705076" expanded="true" signature="1620:1769" ph="{...}" />
+            <marker date="1601413705076" expanded="true" signature="1851:2338" ph="{...}" />
+            <marker date="1601413705076" expanded="true" signature="1994:2052" ph="{...}" />
+            <marker date="1601413705076" expanded="true" signature="2174:2328" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoverPedestal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <marker date="1600040215724" expanded="false" signature="6:120" ph="..." />
+            <marker date="1600040215724" expanded="true" signature="163:1070" ph="{...}" />
+            <marker date="1600040215724" expanded="true" signature="398:487" ph="{...}" />
+            <marker date="1600040215724" expanded="true" signature="520:786" ph="{...}" />
+            <marker date="1600040215724" expanded="true" signature="566:780" ph="{...}" />
+            <marker date="1600040215724" expanded="true" signature="820:1068" ph="{...}" />
+            <marker date="1600040215724" expanded="true" signature="971:1024" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        <state relative-caret-position="980">
+          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
           <folding>
-            <marker date="1601411283272" expanded="true" signature="0:157" ph="/* Moves platform from beginning and end whenever atPosition == false. ... */" />
-            <marker date="1601411283272" expanded="false" signature="164:236" ph="..." />
-            <marker date="1601411283272" expanded="true" signature="279:2401" ph="{...}" />
-            <marker date="1601411283272" expanded="true" signature="625:723" ph="{...}" />
-            <marker date="1601411283272" expanded="true" signature="781:1016" ph="{...}" />
-            <marker date="1601411283272" expanded="true" signature="813:896" ph="{...}" />
-            <marker date="1601411283272" expanded="true" signature="930:1010" ph="{...}" />
-            <marker date="1601411283272" expanded="true" signature="1022:1111" ph="/* Starts platform movement. ... */" />
-            <marker date="1601411283272" expanded="true" signature="1143:1257" ph="{...}" />
-            <marker date="1601411283272" expanded="true" signature="1173:1251" ph="{...}" />
-            <marker date="1601411283272" expanded="true" signature="1293:1817" ph="{...}" />
-            <marker date="1601411283272" expanded="true" signature="1331:1810" ph="{...}" />
-            <marker date="1601411283272" expanded="true" signature="1474:1532" ph="{...}" />
-            <marker date="1601411283272" expanded="true" signature="1648:1797" ph="{...}" />
-            <marker date="1601411283272" expanded="true" signature="1856:2397" ph="{...}" />
-            <marker date="1601411283272" expanded="true" signature="1903:2390" ph="{...}" />
-            <marker date="1601411283272" expanded="true" signature="2046:2104" ph="{...}" />
-            <marker date="1601411283272" expanded="true" signature="2226:2380" ph="{...}" />
+            <marker date="1601414298315" expanded="true" signature="0:129" ph="/* Moves platform from beginning and end whenever atPosition == false. ... */" />
+            <marker date="1601414298315" expanded="false" signature="136:208" ph="..." />
+            <marker date="1601414298315" expanded="true" signature="251:2277" ph="{...}" />
+            <marker date="1601414298315" expanded="true" signature="547:645" ph="{...}" />
+            <marker date="1601414298315" expanded="true" signature="703:902" ph="{...}" />
+            <marker date="1601414298315" expanded="true" signature="735:818" ph="{...}" />
+            <marker date="1601414298315" expanded="true" signature="852:896" ph="{...}" />
+            <marker date="1601414298315" expanded="true" signature="908:997" ph="/* Starts platform movement. ... */" />
+            <marker date="1601414298315" expanded="true" signature="1029:1143" ph="{...}" />
+            <marker date="1601414298315" expanded="true" signature="1059:1137" ph="{...}" />
+            <marker date="1601414298315" expanded="true" signature="1173:2275" ph="{...}" />
+            <marker date="1601414298315" expanded="true" signature="1234:1713" ph="{...}" />
+            <marker date="1601414298315" expanded="true" signature="1377:1435" ph="{...}" />
+            <marker date="1601414298315" expanded="true" signature="1551:1700" ph="{...}" />
+            <marker date="1601414298315" expanded="true" signature="1782:2269" ph="{...}" />
+            <marker date="1601414298315" expanded="true" signature="1925:1983" ph="{...}" />
+            <marker date="1601414298315" expanded="true" signature="2105:2259" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Instructions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1600128360073" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600128360073" expanded="true" signature="121:1262" ph="{...}" />
+            <marker date="1600128360073" expanded="true" signature="353:562" ph="{...}" />
+            <marker date="1600128360073" expanded="true" signature="633:810" ph="{...}" />
+            <marker date="1600128360073" expanded="true" signature="868:1065" ph="{...}" />
+            <marker date="1600128360073" expanded="true" signature="906:1059" ph="{...}" />
+            <marker date="1600128360073" expanded="true" signature="1088:1260" ph="{...}" />
+            <marker date="1600128360073" expanded="true" signature="1130:1254" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMovePlatform.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <marker date="1601415206568" expanded="true" signature="0:206" ph="/* When activated, move platform in one direction. Move in opposite direction upon being activated again. ... */" />
+            <marker date="1601415206568" expanded="true" signature="213:286" ph="..." />
+            <marker date="1601415206568" expanded="true" signature="337:2074" ph="{...}" />
+            <marker date="1601415206568" expanded="true" signature="604:702" ph="{...}" />
+            <marker date="1601415206568" expanded="true" signature="760:940" ph="{...}" />
+            <marker date="1601415206568" expanded="true" signature="792:910" ph="{...}" />
+            <marker date="1601415206568" expanded="true" signature="946:1035" ph="/* Starts platform movement. ... */" />
+            <marker date="1601415206568" expanded="true" signature="1067:1219" ph="{...}" />
+            <marker date="1601415206568" expanded="true" signature="1101:1213" ph="{...}" />
+            <marker date="1601415206568" expanded="true" signature="1249:2072" ph="{...}" />
+            <marker date="1601415206568" expanded="true" signature="1315:1646" ph="{...}" />
+            <marker date="1601415206568" expanded="true" signature="1524:1633" ph="{...}" />
+            <marker date="1601415206568" expanded="true" signature="1720:2066" ph="{...}" />
+            <marker date="1601415206568" expanded="true" signature="1941:2056" ph="{...}" />
           </folding>
         </state>
       </provider>
