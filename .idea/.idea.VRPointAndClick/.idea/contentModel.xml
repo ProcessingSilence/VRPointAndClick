@@ -37,6 +37,7 @@
           <e p="BallPosition.cs" t="Include" />
           <e p="BallSpawner.cs" t="Include" />
           <e p="BetterBallSpawner.cs" t="Include" />
+          <e p="ChildXR.cs" t="Include" />
           <e p="ControlledPlatformMovement.cs" t="Include" />
           <e p="CubeCounter.cs" t="Include" />
           <e p="Door.cs" t="Include" />
