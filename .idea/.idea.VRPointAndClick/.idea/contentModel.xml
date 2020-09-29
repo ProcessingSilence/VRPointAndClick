@@ -38,14 +38,17 @@
           <e p="BallSpawner.cs" t="Include" />
           <e p="BetterBallSpawner.cs" t="Include" />
           <e p="CubeCounter.cs" t="Include" />
+          <e p="Door.cs" t="Include" />
           <e p="Explosive.cs" t="Include" />
           <e p="GameStats.cs" t="Include" />
           <e p="GoalPedestal.cs" t="Include" />
           <e p="GoldenBall.cs" t="Include" />
           <e p="GravityEnabler.cs" t="Include" />
           <e p="Instructions.cs" t="Include" />
+          <e p="MoverPedestal.cs" t="Include" />
           <e p="NewImageEffectShader.shader" t="Include" />
           <e p="PedestalMove.cs" t="Include" />
+          <e p="PlatformMove.cs" t="Include" />
           <e p="ReticleScaleMaintainer.cs" t="Include" />
           <e p="ShowPlatformOnPlace.cs" t="Include" />
           <e p="Testing.cs" t="Include" />

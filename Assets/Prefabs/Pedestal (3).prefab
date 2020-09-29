@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5853320098346514466}
   - component: {fileID: 5853320098346514468}
   - component: {fileID: 5853320098346514467}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Socket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,7 +103,7 @@ GameObject:
   - component: {fileID: 5853320099695225047}
   - component: {fileID: 5853320099695225046}
   - component: {fileID: 5853320099695225045}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Pedestal (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -30,9 +30,9 @@ TagManager:
   - GrabbingLayer
   - TinyFloor
   - Floor
-  - 
-  - 
-  - 
+  - Pedestal
+  - GrabInteractable
+  - GoalGrab
   - 
   - 
   - 

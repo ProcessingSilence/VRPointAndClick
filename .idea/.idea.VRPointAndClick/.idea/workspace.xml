@@ -17,7 +17,7 @@
               <entry file="file://$PROJECT_DIR$/Assets/Scripts/Testing.cs">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="80">
-                    <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+                    <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
                     <folding>
                       <marker date="1601091203307" expanded="false" signature="6:164" ph="..." />
                       <marker date="1601091203307" expanded="true" signature="247:5334" ph="{...}" />
@@ -50,10 +50,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextDisappear.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="977">
+            <state relative-caret-position="897">
               <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
               <folding>
                 <marker date="1601326009866" expanded="true" signature="0:152" ph="/* Gets text meshes and fades them all out. ... */" />
@@ -70,6 +70,48 @@
                 <marker date="1601326009866" expanded="true" signature="1833:2059" ph="{...}" />
                 <marker date="1601326009866" expanded="true" signature="1886:2053" ph="{...}" />
                 <marker date="1601326009866" expanded="true" signature="1909:1977" ph="/* Color fadedColor = texts[i].color; ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoverPedestal.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+              <folding>
+                <marker date="1601333902562" expanded="false" signature="6:79" ph="..." />
+                <marker date="1601333902562" expanded="true" signature="123:553" ph="{...}" />
+                <marker date="1601333902562" expanded="true" signature="258:405" ph="{...}" />
+                <marker date="1601333902562" expanded="true" signature="299:399" ph="{...}" />
+                <marker date="1601333902562" expanded="true" signature="437:547" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+              <folding>
+                <marker date="1601348297962" expanded="true" signature="0:164" ph="/* Moves platform from beginning and end whenever &quot;startMove&quot; is set to true. ... */" />
+                <marker date="1601348297962" expanded="true" signature="171:243" ph="..." />
+                <marker date="1601348297962" expanded="true" signature="286:1814" ph="{...}" />
+                <marker date="1601348297962" expanded="true" signature="516:614" ph="{...}" />
+                <marker date="1601348297962" expanded="true" signature="672:797" ph="{...}" />
+                <marker date="1601348297962" expanded="true" signature="711:791" ph="{...}" />
+                <marker date="1601348297962" expanded="true" signature="803:892" ph="/* Only allow movement AFTER platform is at destination. ... */" />
+                <marker date="1601348297962" expanded="true" signature="924:1012" ph="{...}" />
+                <marker date="1601348297962" expanded="true" signature="954:1006" ph="{...}" />
+                <marker date="1601348297962" expanded="true" signature="1057:1430" ph="{...}" />
+                <marker date="1601348297962" expanded="true" signature="1139:1253" ph="{...}" />
+                <marker date="1601348297962" expanded="true" signature="1334:1424" ph="{...}" />
+                <marker date="1601348297962" expanded="true" signature="1465:1812" ph="{...}" />
+                <marker date="1601348297962" expanded="true" signature="1532:1646" ph="{...}" />
+                <marker date="1601348297962" expanded="true" signature="1712:1803" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -167,12 +209,14 @@
       <find>ztest</find>
       <find>currentReticle</find>
       <find>triggerInput</find>
+      <find>goTobeginningOrEnd</find>
     </findStrings>
     <replaceStrings>
       <replace>primaryIsUpFlag</replace>
       <replace>loadingScene</replace>
       <replace>lineLength</replace>
       <replace>_triggerInput</replace>
+      <replace>goToBeginningOrEnd</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -184,6 +228,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Testing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GoalPedestal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoverPedestal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/XR/XRRig.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextDisappear.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -196,6 +242,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SpriteOverEverything.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/textDisappear.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextDisappear.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoverPedestal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs" />
       </list>
     </option>
   </component>
@@ -256,12 +304,12 @@
       <option name="presentableId" value="Default" />
       <updated>1601071056426</updated>
       <workItem from="1601071077885" duration="21529000" />
-      <workItem from="1601325576016" duration="434000" />
+      <workItem from="1601325576016" duration="4614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21963000" />
+    <option name="totallyTimeSpent" value="26143000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,7 +445,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Testing.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding>
             <marker date="1601091203307" expanded="false" signature="6:164" ph="..." />
             <marker date="1601091203307" expanded="true" signature="247:5334" ph="{...}" />
@@ -424,7 +472,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextDisappear.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="977">
+        <state relative-caret-position="897">
           <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
           <folding>
             <marker date="1601326009866" expanded="true" signature="0:152" ph="/* Gets text meshes and fades them all out. ... */" />
@@ -441,6 +489,51 @@
             <marker date="1601326009866" expanded="true" signature="1833:2059" ph="{...}" />
             <marker date="1601326009866" expanded="true" signature="1886:2053" ph="{...}" />
             <marker date="1601326009866" expanded="true" signature="1909:1977" ph="/* Color fadedColor = texts[i].color; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GoalPedestal1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoverPedestal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <marker date="1601333902562" expanded="false" signature="6:79" ph="..." />
+            <marker date="1601333902562" expanded="true" signature="123:553" ph="{...}" />
+            <marker date="1601333902562" expanded="true" signature="258:405" ph="{...}" />
+            <marker date="1601333902562" expanded="true" signature="299:399" ph="{...}" />
+            <marker date="1601333902562" expanded="true" signature="437:547" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <folding>
+            <marker date="1601348297962" expanded="true" signature="0:164" ph="/* Moves platform from beginning and end whenever &quot;startMove&quot; is set to true. ... */" />
+            <marker date="1601348297962" expanded="true" signature="171:243" ph="..." />
+            <marker date="1601348297962" expanded="true" signature="286:1814" ph="{...}" />
+            <marker date="1601348297962" expanded="true" signature="516:614" ph="{...}" />
+            <marker date="1601348297962" expanded="true" signature="672:797" ph="{...}" />
+            <marker date="1601348297962" expanded="true" signature="711:791" ph="{...}" />
+            <marker date="1601348297962" expanded="true" signature="803:892" ph="/* Only allow movement AFTER platform is at destination. ... */" />
+            <marker date="1601348297962" expanded="true" signature="924:1012" ph="{...}" />
+            <marker date="1601348297962" expanded="true" signature="954:1006" ph="{...}" />
+            <marker date="1601348297962" expanded="true" signature="1057:1430" ph="{...}" />
+            <marker date="1601348297962" expanded="true" signature="1139:1253" ph="{...}" />
+            <marker date="1601348297962" expanded="true" signature="1334:1424" ph="{...}" />
+            <marker date="1601348297962" expanded="true" signature="1465:1812" ph="{...}" />
+            <marker date="1601348297962" expanded="true" signature="1532:1646" ph="{...}" />
+            <marker date="1601348297962" expanded="true" signature="1712:1803" ph="{...}" />
           </folding>
         </state>
       </provider>
