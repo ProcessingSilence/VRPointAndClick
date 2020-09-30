@@ -38,11 +38,6 @@ public class BecomeChildToPlatform : MonoBehaviour
         }
     }
 
-    private void ParentDecider()
-    {
-        
-    }
-
     private void GetPlatform(XRBaseInteractable interactable)
     {
         platform = interactable.transform;

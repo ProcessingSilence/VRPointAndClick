@@ -43,6 +43,7 @@
           <e p="CubeCounter.cs" t="Include" />
           <e p="Door.cs" t="Include" />
           <e p="Explosive.cs" t="Include" />
+          <e p="FourWayMovement.cs" t="Include" />
           <e p="GameStats.cs" t="Include" />
           <e p="GoalPedestal.cs" t="Include" />
           <e p="GoldenBall.cs" t="Include" />

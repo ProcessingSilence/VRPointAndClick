@@ -13,21 +13,44 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file pinned="false" current-in-tab="true">
+            <file pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/Assets/Scripts/BecomeChildToPlatform.cs">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="400">
-                    <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="38" />
+                  <state relative-caret-position="736">
+                    <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
                     <folding>
-                      <marker date="1601427657413" expanded="true" signature="0:204" ph="/* Upon teleportation to a platform: ... */" />
-                      <marker date="1601427657413" expanded="true" signature="212:348" ph="..." />
-                      <marker date="1601427657413" expanded="true" signature="400:1396" ph="{...}" />
-                      <marker date="1601427657413" expanded="true" signature="584:721" ph="{...}" />
-                      <marker date="1601427657413" expanded="true" signature="779:1190" ph="{...}" />
-                      <marker date="1601427657413" expanded="true" signature="813:1184" ph="{...}" />
-                      <marker date="1601427657413" expanded="true" signature="908:1174" ph="{...}" />
-                      <marker date="1601427657413" expanded="true" signature="1224:1245" ph="{...}" />
-                      <marker date="1601427657413" expanded="true" signature="1308:1394" ph="{...}" />
+                      <marker date="1601429371817" expanded="true" signature="0:204" ph="/* Upon teleportation to a platform: ... */" />
+                      <marker date="1601429371817" expanded="true" signature="212:348" ph="..." />
+                      <marker date="1601429371817" expanded="true" signature="400:1341" ph="{...}" />
+                      <marker date="1601429371817" expanded="true" signature="584:721" ph="{...}" />
+                      <marker date="1601429371817" expanded="true" signature="779:1190" ph="{...}" />
+                      <marker date="1601429371817" expanded="true" signature="813:1184" ph="{...}" />
+                      <marker date="1601429371817" expanded="true" signature="908:1174" ph="{...}" />
+                      <marker date="1601429371817" expanded="true" signature="1253:1339" ph="{...}" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/Assets/Scripts/FourWayMovement.cs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="704">
+                    <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+                    <folding>
+                      <marker date="1601433296231" expanded="false" signature="6:78" ph="..." />
+                      <marker date="1601433296231" expanded="true" signature="124:1804" ph="{...}" />
+                      <marker date="1601433296231" expanded="true" signature="131:282" ph="/* public int leftMin, leftMax, rightMin, rightMax, upMin, upMax, downMin, downMax; ... */" />
+                      <marker date="1601433296231" expanded="true" signature="638:659" ph="{...}" />
+                      <marker date="1601433296231" expanded="true" signature="717:958" ph="{...}" />
+                      <marker date="1601433296231" expanded="true" signature="741:860" ph="{...}" />
+                      <marker date="1601433296231" expanded="true" signature="904:952" ph="{...}" />
+                      <marker date="1601433296231" expanded="true" signature="995:1744" ph="{...}" />
+                      <marker date="1601433296231" expanded="true" signature="1025:1241" ph="{...}" />
+                      <marker date="1601433296231" expanded="true" signature="1275:1738" ph="{...}" />
+                      <marker date="1601433296231" expanded="true" signature="1418:1476" ph="{...}" />
+                      <marker date="1601433296231" expanded="true" signature="1613:1725" ph="{...}" />
+                      <marker date="1601433296231" expanded="true" signature="1781:1802" ph="{...}" />
                     </folding>
                   </state>
                 </provider>
@@ -58,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMovePlatform.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
@@ -78,6 +101,34 @@
                 <marker date="1601415206568" expanded="true" signature="1524:1633" ph="{...}" />
                 <marker date="1601415206568" expanded="true" signature="1720:2066" ph="{...}" />
                 <marker date="1601415206568" expanded="true" signature="1941:2056" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+              <folding>
+                <marker date="1601429273637" expanded="true" signature="0:157" ph="/* Moves platform from beginning and end whenever atPosition == false. ... */" />
+                <marker date="1601429273637" expanded="false" signature="164:236" ph="..." />
+                <marker date="1601429273637" expanded="true" signature="279:2305" ph="{...}" />
+                <marker date="1601429273637" expanded="true" signature="575:673" ph="{...}" />
+                <marker date="1601429273637" expanded="true" signature="731:930" ph="{...}" />
+                <marker date="1601429273637" expanded="true" signature="763:846" ph="{...}" />
+                <marker date="1601429273637" expanded="true" signature="880:924" ph="{...}" />
+                <marker date="1601429273637" expanded="true" signature="936:1025" ph="/* Starts platform movement. ... */" />
+                <marker date="1601429273637" expanded="true" signature="1057:1171" ph="{...}" />
+                <marker date="1601429273637" expanded="true" signature="1087:1165" ph="{...}" />
+                <marker date="1601429273637" expanded="true" signature="1201:2303" ph="{...}" />
+                <marker date="1601429273637" expanded="true" signature="1262:1741" ph="{...}" />
+                <marker date="1601429273637" expanded="true" signature="1405:1463" ph="{...}" />
+                <marker date="1601429273637" expanded="true" signature="1579:1728" ph="{...}" />
+                <marker date="1601429273637" expanded="true" signature="1810:2297" ph="{...}" />
+                <marker date="1601429273637" expanded="true" signature="1953:2011" ph="{...}" />
+                <marker date="1601429273637" expanded="true" signature="2133:2287" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -189,6 +240,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMovePlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FourWayMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Locomotion/Teleportation/TeleportationArea.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewImageEffectShader.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs" root0="FORCE_HIGHLIGHTING" />
@@ -215,17 +267,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MoverPedestal.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ControlledPlatformMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PedestalMovePlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChildXR.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BecomeChildToPlatform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FourWayMovement.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1273" />
     <option name="width" value="1294" />
-    <option name="height" value="1400" />
+    <option name="height" value="1407" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -282,12 +335,12 @@
       <workItem from="1601325576016" duration="7583000" />
       <workItem from="1601409819802" duration="8086000" />
       <workItem from="1601422504313" duration="308000" />
-      <workItem from="1601422842020" duration="3470000" />
+      <workItem from="1601422842020" duration="8286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40976000" />
+    <option name="totallyTimeSpent" value="45792000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -299,7 +352,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1273" y="0" width="1294" height="1400" extended-state="0" />
+    <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24959481" />
@@ -392,32 +445,6 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoverPedestal.cs" />
     <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Locomotion/Teleportation/TeleportationArea.cs">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1280">
-          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
-          <folding>
-            <marker date="1601414298315" expanded="true" signature="0:129" ph="/* Moves platform from beginning and end whenever atPosition == false. ... */" />
-            <marker date="1601414298315" expanded="false" signature="136:208" ph="..." />
-            <marker date="1601414298315" expanded="true" signature="251:2277" ph="{...}" />
-            <marker date="1601414298315" expanded="true" signature="547:645" ph="{...}" />
-            <marker date="1601414298315" expanded="true" signature="703:902" ph="{...}" />
-            <marker date="1601414298315" expanded="true" signature="735:818" ph="{...}" />
-            <marker date="1601414298315" expanded="true" signature="852:896" ph="{...}" />
-            <marker date="1601414298315" expanded="true" signature="908:997" ph="/* Starts platform movement. ... */" />
-            <marker date="1601414298315" expanded="true" signature="1029:1143" ph="{...}" />
-            <marker date="1601414298315" expanded="true" signature="1059:1137" ph="{...}" />
-            <marker date="1601414298315" expanded="true" signature="1173:2275" ph="{...}" />
-            <marker date="1601414298315" expanded="true" signature="1234:1713" ph="{...}" />
-            <marker date="1601414298315" expanded="true" signature="1377:1435" ph="{...}" />
-            <marker date="1601414298315" expanded="true" signature="1551:1700" ph="{...}" />
-            <marker date="1601414298315" expanded="true" signature="1782:2269" ph="{...}" />
-            <marker date="1601414298315" expanded="true" signature="1925:1983" ph="{...}" />
-            <marker date="1601414298315" expanded="true" signature="2105:2259" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ControlledPlatformMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -547,24 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BecomeChildToPlatform.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="38" />
-          <folding>
-            <marker date="1601427657413" expanded="true" signature="0:204" ph="/* Upon teleportation to a platform: ... */" />
-            <marker date="1601427657413" expanded="true" signature="212:348" ph="..." />
-            <marker date="1601427657413" expanded="true" signature="400:1396" ph="{...}" />
-            <marker date="1601427657413" expanded="true" signature="584:721" ph="{...}" />
-            <marker date="1601427657413" expanded="true" signature="779:1190" ph="{...}" />
-            <marker date="1601427657413" expanded="true" signature="813:1184" ph="{...}" />
-            <marker date="1601427657413" expanded="true" signature="908:1174" ph="{...}" />
-            <marker date="1601427657413" expanded="true" signature="1224:1245" ph="{...}" />
-            <marker date="1601427657413" expanded="true" signature="1308:1394" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMovePlatform.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -584,6 +593,78 @@
             <marker date="1601415206568" expanded="true" signature="1524:1633" ph="{...}" />
             <marker date="1601415206568" expanded="true" signature="1720:2066" ph="{...}" />
             <marker date="1601415206568" expanded="true" signature="1941:2056" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/4WayMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BecomeChildToPlatform.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <marker date="1601429371817" expanded="true" signature="0:204" ph="/* Upon teleportation to a platform: ... */" />
+            <marker date="1601429371817" expanded="true" signature="212:348" ph="..." />
+            <marker date="1601429371817" expanded="true" signature="400:1341" ph="{...}" />
+            <marker date="1601429371817" expanded="true" signature="584:721" ph="{...}" />
+            <marker date="1601429371817" expanded="true" signature="779:1190" ph="{...}" />
+            <marker date="1601429371817" expanded="true" signature="813:1184" ph="{...}" />
+            <marker date="1601429371817" expanded="true" signature="908:1174" ph="{...}" />
+            <marker date="1601429371817" expanded="true" signature="1253:1339" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+          <folding>
+            <marker date="1601429273637" expanded="true" signature="0:157" ph="/* Moves platform from beginning and end whenever atPosition == false. ... */" />
+            <marker date="1601429273637" expanded="false" signature="164:236" ph="..." />
+            <marker date="1601429273637" expanded="true" signature="279:2305" ph="{...}" />
+            <marker date="1601429273637" expanded="true" signature="575:673" ph="{...}" />
+            <marker date="1601429273637" expanded="true" signature="731:930" ph="{...}" />
+            <marker date="1601429273637" expanded="true" signature="763:846" ph="{...}" />
+            <marker date="1601429273637" expanded="true" signature="880:924" ph="{...}" />
+            <marker date="1601429273637" expanded="true" signature="936:1025" ph="/* Starts platform movement. ... */" />
+            <marker date="1601429273637" expanded="true" signature="1057:1171" ph="{...}" />
+            <marker date="1601429273637" expanded="true" signature="1087:1165" ph="{...}" />
+            <marker date="1601429273637" expanded="true" signature="1201:2303" ph="{...}" />
+            <marker date="1601429273637" expanded="true" signature="1262:1741" ph="{...}" />
+            <marker date="1601429273637" expanded="true" signature="1405:1463" ph="{...}" />
+            <marker date="1601429273637" expanded="true" signature="1579:1728" ph="{...}" />
+            <marker date="1601429273637" expanded="true" signature="1810:2297" ph="{...}" />
+            <marker date="1601429273637" expanded="true" signature="1953:2011" ph="{...}" />
+            <marker date="1601429273637" expanded="true" signature="2133:2287" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FourWayMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+          <folding>
+            <marker date="1601433296231" expanded="false" signature="6:78" ph="..." />
+            <marker date="1601433296231" expanded="true" signature="124:1804" ph="{...}" />
+            <marker date="1601433296231" expanded="true" signature="131:282" ph="/* public int leftMin, leftMax, rightMin, rightMax, upMin, upMax, downMin, downMax; ... */" />
+            <marker date="1601433296231" expanded="true" signature="638:659" ph="{...}" />
+            <marker date="1601433296231" expanded="true" signature="717:958" ph="{...}" />
+            <marker date="1601433296231" expanded="true" signature="741:860" ph="{...}" />
+            <marker date="1601433296231" expanded="true" signature="904:952" ph="{...}" />
+            <marker date="1601433296231" expanded="true" signature="995:1744" ph="{...}" />
+            <marker date="1601433296231" expanded="true" signature="1025:1241" ph="{...}" />
+            <marker date="1601433296231" expanded="true" signature="1275:1738" ph="{...}" />
+            <marker date="1601433296231" expanded="true" signature="1418:1476" ph="{...}" />
+            <marker date="1601433296231" expanded="true" signature="1613:1725" ph="{...}" />
+            <marker date="1601433296231" expanded="true" signature="1781:1802" ph="{...}" />
           </folding>
         </state>
       </provider>

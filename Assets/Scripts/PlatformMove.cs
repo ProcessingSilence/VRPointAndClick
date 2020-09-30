@@ -1,4 +1,4 @@
-﻿// Moves platform from beginning and end whenever atPosition == false.
+﻿// Moves platform from beginning and end whenever atPosition == false; interruption cannot happen.
 // This script starts from BeginMovement() getting called.
 using System.Collections;
 using System.Collections.Generic;
