@@ -1,4 +1,6 @@
-﻿// Obsolete code: Originally childs XR Rig to one platform, but now this is done with every platform the player teleports to.
+﻿// Obsolete code:
+// Originally childs XR Rig to one platform.
+// However, this is now done with BecomeChildToPlatform.cs which childs the XR to every platform the player teleports to.
 
 /*
 using UnityEngine;

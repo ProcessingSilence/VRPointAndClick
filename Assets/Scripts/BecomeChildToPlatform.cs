@@ -1,4 +1,6 @@
-﻿// Become a child of any object as long as they are tagged as "Platform", correct scale to always be (1,1,1) in world space.
+﻿// Upon teleportation to a platform:
+// Become a child of any object as long as they are tagged as "Platform"
+// Corrects scale to always be (1,1,1) in world space, and not get scale from parent platform.
 
 using System.Collections;
 using System.Collections.Generic;
@@ -14,7 +16,7 @@ public class BecomeChildToPlatform : MonoBehaviour
     public XRBaseInteractor rightController, leftController;
 
     private bool decideIfParent;
-    // Start is called before the first frame update
+
     void Awake()
     {
         rightController.onSelectExit.AddListener(GetPlatform);
@@ -34,6 +36,11 @@ public class BecomeChildToPlatform : MonoBehaviour
                 transform.localScale = new Vector3 (1/platformParent.localScale.x,1/platformParent.localScale.y,1/platformParent.localScale.z);
             }
         }
+    }
+
+    private void ParentDecider()
+    {
+        
     }
 
     private void GetPlatform(XRBaseInteractable interactable)
