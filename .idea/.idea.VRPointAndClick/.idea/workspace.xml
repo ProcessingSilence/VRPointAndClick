@@ -17,7 +17,7 @@
               <entry file="file://$PROJECT_DIR$/Assets/Scripts/BecomeChildToPlatform.cs">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="656">
-                    <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+                    <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
                     <folding>
                       <marker date="1601498423749" expanded="true" signature="0:204" ph="/* Upon teleportation to a platform: ... */" />
                       <marker date="1601498423749" expanded="true" signature="212:348" ph="..." />
@@ -32,11 +32,11 @@
                 </provider>
               </entry>
             </file>
-            <file pinned="false" current-in-tab="true">
+            <file pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/Assets/Scripts/FourWayMovement.cs">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="305">
-                    <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+                    <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
                     <folding>
                       <marker date="1601498996271" expanded="false" signature="6:78" ph="..." />
                       <marker date="1601498996271" expanded="true" signature="124:2283" ph="{...}" />
@@ -57,6 +57,37 @@
                       <marker date="1601498996271" expanded="true" signature="1843:1901" ph="{...}" />
                       <marker date="1601498996271" expanded="true" signature="2051:2204" ph="{...}" />
                       <marker date="1601498996271" expanded="true" signature="2260:2281" ph="{...}" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/Assets/Scripts/OrangeParentPlatform.cs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="400">
+                    <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+                    <folding>
+                      <marker date="1601501617712" expanded="false" signature="6:78" ph="..." />
+                      <marker date="1601501617712" expanded="true" signature="129:621" ph="{...}" />
+                      <marker date="1601501617712" expanded="true" signature="201:222" ph="{...}" />
+                      <marker date="1601501617712" expanded="true" signature="280:301" ph="{...}" />
+                      <marker date="1601501617712" expanded="true" signature="353:466" ph="{...}" />
+                      <marker date="1601501617712" expanded="true" signature="517:619" ph="{...}" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/Assets/Scripts/RespawnObj.cs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state>
+                    <folding>
+                      <marker date="1601503779093" expanded="false" signature="6:78" ph="..." />
+                      <marker date="1601503779093" expanded="true" signature="119:293" ph="{...}" />
+                      <marker date="1601503779093" expanded="true" signature="191:212" ph="{...}" />
+                      <marker date="1601503779093" expanded="true" signature="270:291" ph="{...}" />
                     </folding>
                   </state>
                 </provider>
@@ -87,7 +118,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMovePlatform.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
@@ -112,7 +143,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
@@ -162,7 +193,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChildXR.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding>
                 <marker date="1601427657381" expanded="true" signature="0:184" ph="/* Obsolete code: ... */" />
                 <marker date="1601427657381" expanded="true" signature="186:815" ph="/* using UnityEngine; ... */" />
@@ -175,7 +206,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Testing.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-16">
-              <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
               <folding>
                 <marker date="1601091203307" expanded="false" signature="6:164" ph="..." />
                 <marker date="1601091203307" expanded="true" signature="247:5334" ph="{...}" />
@@ -227,8 +258,9 @@
       <find>changeParent</find>
       <find>platform</find>
       <find>areaParent</find>
-      <find>int</find>
       <find>platformParent</find>
+      <find>int</find>
+      <find>fraction</find>
     </findStrings>
     <replaceStrings>
       <replace>primaryIsUpFlag</replace>
@@ -239,10 +271,10 @@
       <replace>movementSwitch</replace>
       <replace>Movement</replace>
       <replace>decideIfParent</replace>
-      <replace>platformParent</replace>
       <replace>transform</replace>
-      <replace>float</replace>
       <replace>_platformParent</replace>
+      <replace>float</replace>
+      <replace>platformParent</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -257,10 +289,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GoalPedestal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChildXR.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OrangeParentPlatform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/XR/XRRig.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BecomeChildToPlatform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Instructions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Locomotion/LocomotionSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RespawnObj.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ControlledPlatformMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Testing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextDisappear.cs" root0="FORCE_HIGHLIGHTING" />
@@ -282,6 +316,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BecomeChildToPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FourWayMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OrangeParentPlatform.cs" />
       </list>
     </option>
   </component>
@@ -345,12 +380,12 @@
       <workItem from="1601325576016" duration="7583000" />
       <workItem from="1601409819802" duration="8086000" />
       <workItem from="1601422504313" duration="308000" />
-      <workItem from="1601422842020" duration="12937000" />
+      <workItem from="1601422842020" duration="14190000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50443000" />
+    <option name="totallyTimeSpent" value="51696000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -548,7 +583,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Testing.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-16">
-          <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
           <folding>
             <marker date="1601091203307" expanded="false" signature="6:164" ph="..." />
             <marker date="1601091203307" expanded="true" signature="247:5334" ph="{...}" />
@@ -576,33 +611,10 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChildXR.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
             <marker date="1601427657381" expanded="true" signature="0:184" ph="/* Obsolete code: ... */" />
             <marker date="1601427657381" expanded="true" signature="186:815" ph="/* using UnityEngine; ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMovePlatform.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding>
-            <marker date="1601415206568" expanded="true" signature="0:206" ph="/* When activated, move platform in one direction. Move in opposite direction upon being activated again. ... */" />
-            <marker date="1601415206568" expanded="false" signature="213:286" ph="..." />
-            <marker date="1601415206568" expanded="true" signature="337:2074" ph="{...}" />
-            <marker date="1601415206568" expanded="true" signature="604:702" ph="{...}" />
-            <marker date="1601415206568" expanded="true" signature="760:940" ph="{...}" />
-            <marker date="1601415206568" expanded="true" signature="792:910" ph="{...}" />
-            <marker date="1601415206568" expanded="true" signature="946:1035" ph="/* Starts platform movement. ... */" />
-            <marker date="1601415206568" expanded="true" signature="1067:1219" ph="{...}" />
-            <marker date="1601415206568" expanded="true" signature="1101:1213" ph="{...}" />
-            <marker date="1601415206568" expanded="true" signature="1249:2072" ph="{...}" />
-            <marker date="1601415206568" expanded="true" signature="1315:1646" ph="{...}" />
-            <marker date="1601415206568" expanded="true" signature="1524:1633" ph="{...}" />
-            <marker date="1601415206568" expanded="true" signature="1720:2066" ph="{...}" />
-            <marker date="1601415206568" expanded="true" signature="1941:2056" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -643,7 +655,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BecomeChildToPlatform.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="656">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding>
             <marker date="1601498423749" expanded="true" signature="0:204" ph="/* Upon teleportation to a platform: ... */" />
             <marker date="1601498423749" expanded="true" signature="212:348" ph="..." />
@@ -660,7 +672,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FourWayMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
-          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
           <folding>
             <marker date="1601498996271" expanded="false" signature="6:78" ph="..." />
             <marker date="1601498996271" expanded="true" signature="124:2283" ph="{...}" />
@@ -681,6 +693,56 @@
             <marker date="1601498996271" expanded="true" signature="1843:1901" ph="{...}" />
             <marker date="1601498996271" expanded="true" signature="2051:2204" ph="{...}" />
             <marker date="1601498996271" expanded="true" signature="2260:2281" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMovePlatform.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <marker date="1601415206568" expanded="true" signature="0:206" ph="/* When activated, move platform in one direction. Move in opposite direction upon being activated again. ... */" />
+            <marker date="1601415206568" expanded="false" signature="213:286" ph="..." />
+            <marker date="1601415206568" expanded="true" signature="337:2074" ph="{...}" />
+            <marker date="1601415206568" expanded="true" signature="604:702" ph="{...}" />
+            <marker date="1601415206568" expanded="true" signature="760:940" ph="{...}" />
+            <marker date="1601415206568" expanded="true" signature="792:910" ph="{...}" />
+            <marker date="1601415206568" expanded="true" signature="946:1035" ph="/* Starts platform movement. ... */" />
+            <marker date="1601415206568" expanded="true" signature="1067:1219" ph="{...}" />
+            <marker date="1601415206568" expanded="true" signature="1101:1213" ph="{...}" />
+            <marker date="1601415206568" expanded="true" signature="1249:2072" ph="{...}" />
+            <marker date="1601415206568" expanded="true" signature="1315:1646" ph="{...}" />
+            <marker date="1601415206568" expanded="true" signature="1524:1633" ph="{...}" />
+            <marker date="1601415206568" expanded="true" signature="1720:2066" ph="{...}" />
+            <marker date="1601415206568" expanded="true" signature="1941:2056" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/OrangeParentPlatform.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <marker date="1601501617712" expanded="false" signature="6:78" ph="..." />
+            <marker date="1601501617712" expanded="true" signature="129:621" ph="{...}" />
+            <marker date="1601501617712" expanded="true" signature="201:222" ph="{...}" />
+            <marker date="1601501617712" expanded="true" signature="280:301" ph="{...}" />
+            <marker date="1601501617712" expanded="true" signature="353:466" ph="{...}" />
+            <marker date="1601501617712" expanded="true" signature="517:619" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RespawnObj.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1601503779093" expanded="false" signature="6:78" ph="..." />
+            <marker date="1601503779093" expanded="true" signature="119:293" ph="{...}" />
+            <marker date="1601503779093" expanded="true" signature="191:212" ph="{...}" />
+            <marker date="1601503779093" expanded="true" signature="270:291" ph="{...}" />
           </folding>
         </state>
       </provider>

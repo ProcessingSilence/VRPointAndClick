@@ -50,9 +50,11 @@
           <e p="GravityEnabler.cs" t="Include" />
           <e p="Instructions.cs" t="Include" />
           <e p="NewImageEffectShader.shader" t="Include" />
+          <e p="OrangeParentPlatform.cs" t="Include" />
           <e p="PedestalMove.cs" t="Include" />
           <e p="PedestalMovePlatform.cs" t="Include" />
           <e p="PlatformMove.cs" t="Include" />
+          <e p="RespawnObj.cs" t="Include" />
           <e p="ReticleScaleMaintainer.cs" t="Include" />
           <e p="ShowPlatformOnPlace.cs" t="Include" />
           <e p="TestGetObj.cs" t="Include" />
