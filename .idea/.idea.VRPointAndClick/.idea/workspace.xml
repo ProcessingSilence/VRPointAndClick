@@ -8,40 +8,40 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/Assets/Scripts/BecomeChildToPlatform.cs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="672">
+                    <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+                    <folding>
+                      <marker date="1601426887633" expanded="true" signature="6:142" ph="..." />
+                      <marker date="1601426887633" expanded="true" signature="194:1187" ph="{...}" />
+                      <marker date="1601426887633" expanded="true" signature="430:567" ph="{...}" />
+                      <marker date="1601426887633" expanded="true" signature="625:1036" ph="{...}" />
+                      <marker date="1601426887633" expanded="true" signature="659:1030" ph="{...}" />
+                      <marker date="1601426887633" expanded="true" signature="754:1020" ph="{...}" />
+                      <marker date="1601426887633" expanded="true" signature="1099:1185" ph="{...}" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ControlledPlatformMovement.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
-              <folding>
-                <marker date="1601413705076" expanded="true" signature="0:129" ph="/* Moves platform from beginning and end whenever atPosition == false. ... */" />
-                <marker date="1601413705076" expanded="false" signature="136:208" ph="..." />
-                <marker date="1601413705076" expanded="true" signature="265:2349" ph="{...}" />
-                <marker date="1601413705076" expanded="true" signature="616:714" ph="{...}" />
-                <marker date="1601413705076" expanded="true" signature="772:971" ph="{...}" />
-                <marker date="1601413705076" expanded="true" signature="804:887" ph="{...}" />
-                <marker date="1601413705076" expanded="true" signature="921:965" ph="{...}" />
-                <marker date="1601413705076" expanded="true" signature="977:1066" ph="/* Starts platform movement. ... */" />
-                <marker date="1601413705076" expanded="true" signature="1098:1212" ph="{...}" />
-                <marker date="1601413705076" expanded="true" signature="1128:1206" ph="{...}" />
-                <marker date="1601413705076" expanded="true" signature="1242:2344" ph="{...}" />
-                <marker date="1601413705076" expanded="true" signature="1303:1782" ph="{...}" />
-                <marker date="1601413705076" expanded="true" signature="1446:1504" ph="{...}" />
-                <marker date="1601413705076" expanded="true" signature="1620:1769" ph="{...}" />
-                <marker date="1601413705076" expanded="true" signature="1851:2338" ph="{...}" />
-                <marker date="1601413705076" expanded="true" signature="1994:2052" ph="{...}" />
-                <marker date="1601413705076" expanded="true" signature="2174:2328" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
+            <state relative-caret-position="-16">
               <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding>
                 <marker date="1600040215724" expanded="false" signature="6:120" ph="..." />
@@ -102,43 +102,52 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChildXR.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="112">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <marker date="1601423072541" expanded="true" signature="56:675" ph="{...}" />
-                <marker date="1601423072541" expanded="true" signature="184:299" ph="{...}" />
-                <marker date="1601423072541" expanded="true" signature="330:549" ph="{...}" />
-                <marker date="1601423072541" expanded="true" signature="578:673" ph="{...}" />
+                <marker date="1601427040935" expanded="true" signature="56:623" ph="{...}" />
+                <marker date="1601427040935" expanded="true" signature="132:247" ph="{...}" />
+                <marker date="1601427040935" expanded="true" signature="278:497" ph="{...}" />
+                <marker date="1601427040935" expanded="true" signature="526:621" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/NewImageEffectShader.shader">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Testing.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="-16">
+              <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
               <folding>
-                <marker date="1601260329900" expanded="true" signature="37:1130" ph="{...}" />
-                <marker date="1601260329900" expanded="true" signature="58:111" ph="{...}" />
-                <marker date="1601260329900" expanded="true" signature="130:1128" ph="{...}" />
-                <marker date="1601260329900" expanded="true" signature="226:1122" ph="{...}" />
-                <marker date="1601260329900" expanded="true" signature="249:1107" ph="{...}" />
+                <marker date="1601091203307" expanded="false" signature="6:164" ph="..." />
+                <marker date="1601091203307" expanded="true" signature="247:5334" ph="{...}" />
+                <marker date="1601091203307" expanded="true" signature="1096:1151" ph="{...}" />
+                <marker date="1601091203307" expanded="true" signature="1222:2000" ph="{...}" />
+                <marker date="1601091203307" expanded="true" signature="2058:2158" ph="{...}" />
+                <marker date="1601091203307" expanded="true" signature="2190:2648" ph="{...}" />
+                <marker date="1601091203307" expanded="true" signature="2673:3115" ph="{...}" />
+                <marker date="1601091203307" expanded="true" signature="3153:3562" ph="{...}" />
+                <marker date="1601091203307" expanded="true" signature="3452:3556" ph="{...}" />
+                <marker date="1601091203307" expanded="true" signature="3602:3761" ph="{...}" />
+                <marker date="1601091203307" expanded="true" signature="3649:3755" ph="{...}" />
+                <marker date="1601091203307" expanded="true" signature="3767:3901" ph="/* Switch back and forth between switching and growing every time Primary is pressed. ... */" />
+                <marker date="1601091203307" expanded="true" signature="3937:4369" ph="{...}" />
+                <marker date="1601091203307" expanded="true" signature="3984:4078" ph="{...}" />
+                <marker date="1601091203307" expanded="true" signature="4156:4231" ph="{...}" />
+                <marker date="1601091203307" expanded="true" signature="4291:4363" ph="{...}" />
+                <marker date="1601091203307" expanded="true" signature="4375:4541" ph="/* Using InputTrackingRecenter resets the angle each time it's used. ... */" />
+                <marker date="1601091203307" expanded="true" signature="4577:4792" ph="{...}" />
+                <marker date="1601091203307" expanded="true" signature="4803:5332" ph="/* private void TriggerInputDetection() ... */" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Graphics/Terms of Use End User Lisence Agreement.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/XR/XRRig.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2064">
+            <state relative-caret-position="1217">
               <caret line="135" column="60" selection-start-line="135" selection-start-column="60" selection-end-line="135" selection-end-column="60" />
             </state>
           </provider>
@@ -158,6 +167,9 @@
       <find>goTobeginningOrEnd</find>
       <find>atPosition</find>
       <find>BeginningToEnd</find>
+      <find>changeParent</find>
+      <find>areaParent</find>
+      <find>platform</find>
     </findStrings>
     <replaceStrings>
       <replace>primaryIsUpFlag</replace>
@@ -167,6 +179,9 @@
       <replace>goToBeginningOrEnd</replace>
       <replace>movementSwitch</replace>
       <replace>Movement</replace>
+      <replace>decideIfParent</replace>
+      <replace>transform</replace>
+      <replace>platformParent</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -175,15 +190,17 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMovePlatform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Locomotion/Teleportation/TeleportationArea.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Instructions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewImageEffectShader.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ControlledPlatformMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Testing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GoalPedestal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChildXR.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/XR/XRRig.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BecomeChildToPlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Instructions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Locomotion/LocomotionSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ControlledPlatformMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Testing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextDisappear.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -200,14 +217,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PedestalMovePlatform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BecomeChildToPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChildXR.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="1273" />
     <option name="width" value="1294" />
-    <option name="height" value="1407" />
+    <option name="height" value="1400" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -264,12 +282,12 @@
       <workItem from="1601325576016" duration="7583000" />
       <workItem from="1601409819802" duration="8086000" />
       <workItem from="1601422504313" duration="308000" />
-      <workItem from="1601422842020" duration="315000" />
+      <workItem from="1601422842020" duration="2855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37821000" />
+    <option name="totallyTimeSpent" value="40361000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -281,7 +299,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1407" extended-state="0" />
+    <frame x="1273" y="0" width="1294" height="1400" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24959481" />
@@ -334,34 +352,6 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SpriteOverEverything.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Testing.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GoalPedestal1.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Testing.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-468">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <marker date="1601091203307" expanded="false" signature="6:164" ph="..." />
-            <marker date="1601091203307" expanded="true" signature="247:5334" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="1096:1151" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="1222:2000" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="2058:2158" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="2190:2648" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="2673:3115" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="3153:3562" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="3452:3556" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="3602:3761" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="3649:3755" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="3767:3901" ph="/* Switch back and forth between switching and growing every time Primary is pressed. ... */" />
-            <marker date="1601091203307" expanded="true" signature="3937:4369" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="3984:4078" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="4156:4231" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="4291:4363" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="4375:4541" ph="/* Using InputTrackingRecenter resets the angle each time it's used. ... */" />
-            <marker date="1601091203307" expanded="true" signature="4577:4792" ph="{...}" />
-            <marker date="1601091203307" expanded="true" signature="4803:5332" ph="/* private void TriggerInputDetection() ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextDisappear.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
@@ -457,7 +447,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
+        <state relative-caret-position="-16">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding>
             <marker date="1600040215724" expanded="false" signature="6:120" ph="..." />
@@ -510,6 +500,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/XR/XRRig.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1217">
+          <caret line="135" column="60" selection-start-line="135" selection-start-column="60" selection-end-line="135" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Locomotion/LocomotionSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-464">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/NewImageEffectShader.shader">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -527,22 +531,59 @@
     <entry file="file://$PROJECT_DIR$/Assets/Graphics/Terms of Use End User Lisence Agreement.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/XR/XRRig.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Testing.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2064">
-          <caret line="135" column="60" selection-start-line="135" selection-start-column="60" selection-end-line="135" selection-end-column="60" />
+        <state relative-caret-position="-16">
+          <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <folding>
+            <marker date="1601091203307" expanded="false" signature="6:164" ph="..." />
+            <marker date="1601091203307" expanded="true" signature="247:5334" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="1096:1151" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="1222:2000" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="2058:2158" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="2190:2648" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="2673:3115" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="3153:3562" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="3452:3556" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="3602:3761" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="3649:3755" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="3767:3901" ph="/* Switch back and forth between switching and growing every time Primary is pressed. ... */" />
+            <marker date="1601091203307" expanded="true" signature="3937:4369" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="3984:4078" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="4156:4231" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="4291:4363" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="4375:4541" ph="/* Using InputTrackingRecenter resets the angle each time it's used. ... */" />
+            <marker date="1601091203307" expanded="true" signature="4577:4792" ph="{...}" />
+            <marker date="1601091203307" expanded="true" signature="4803:5332" ph="/* private void TriggerInputDetection() ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BecomeChildToPlatform.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <marker date="1601426887633" expanded="true" signature="6:142" ph="..." />
+            <marker date="1601426887633" expanded="true" signature="194:1187" ph="{...}" />
+            <marker date="1601426887633" expanded="true" signature="430:567" ph="{...}" />
+            <marker date="1601426887633" expanded="true" signature="625:1036" ph="{...}" />
+            <marker date="1601426887633" expanded="true" signature="659:1030" ph="{...}" />
+            <marker date="1601426887633" expanded="true" signature="754:1020" ph="{...}" />
+            <marker date="1601426887633" expanded="true" signature="1099:1185" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChildXR.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="112">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <marker date="1601423072541" expanded="true" signature="56:675" ph="{...}" />
-            <marker date="1601423072541" expanded="true" signature="184:299" ph="{...}" />
-            <marker date="1601423072541" expanded="true" signature="330:549" ph="{...}" />
-            <marker date="1601423072541" expanded="true" signature="578:673" ph="{...}" />
+            <marker date="1601427040935" expanded="true" signature="56:623" ph="{...}" />
+            <marker date="1601427040935" expanded="true" signature="132:247" ph="{...}" />
+            <marker date="1601427040935" expanded="true" signature="278:497" ph="{...}" />
+            <marker date="1601427040935" expanded="true" signature="526:621" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -36,6 +36,7 @@
         <e p="Scripts" t="Include">
           <e p="BallPosition.cs" t="Include" />
           <e p="BallSpawner.cs" t="Include" />
+          <e p="BecomeChildToPlatform.cs" t="Include" />
           <e p="BetterBallSpawner.cs" t="Include" />
           <e p="ChildXR.cs" t="Include" />
           <e p="ControlledPlatformMovement.cs" t="Include" />
@@ -53,6 +54,7 @@
           <e p="PlatformMove.cs" t="Include" />
           <e p="ReticleScaleMaintainer.cs" t="Include" />
           <e p="ShowPlatformOnPlace.cs" t="Include" />
+          <e p="TestGetObj.cs" t="Include" />
           <e p="Testing.cs" t="Include" />
           <e p="textDisappear.cs" t="Include" />
           <e p="Timer.cs" t="Include" />
