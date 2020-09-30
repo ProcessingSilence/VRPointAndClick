@@ -36,9 +36,9 @@ public class FourWayMovement : MonoBehaviour
         Movement();    
     }
 
-    public void MyVector(Vector3 myVector3)
+    public void HitButton()
     {
-        
+        Debug.Log("Hit");
     }
 
     public void SetX(float myFloat)

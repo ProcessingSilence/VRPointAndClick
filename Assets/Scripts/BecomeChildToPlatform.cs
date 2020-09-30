@@ -11,7 +11,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class BecomeChildToPlatform : MonoBehaviour
 {
     public Transform platform;
-    public Transform platformParent;
+    private Transform _platformParent;
 
     public XRBaseInteractor rightController, leftController;
 
@@ -31,9 +31,9 @@ public class BecomeChildToPlatform : MonoBehaviour
             decideIfParent = false;
             if (platform.CompareTag("Platform"))
             {
-                platformParent = platform;
-                transform.parent = platformParent;
-                transform.localScale = new Vector3 (1/platformParent.localScale.x,1/platformParent.localScale.y,1/platformParent.localScale.z);
+                _platformParent = platform;
+                transform.parent = _platformParent;
+                transform.localScale = new Vector3 (1/_platformParent.localScale.x,1/_platformParent.localScale.y,1/_platformParent.localScale.z);
             }
         }
     }
