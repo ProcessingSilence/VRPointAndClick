@@ -9,19 +9,21 @@ public class FourWayMovement : MonoBehaviour
     //public int currentLeft, currentRight, currentUp, currentDown;
 
     public Vector3 currentBeginning, currentEnd;
-    
-    // 0: Off, 1: Left, 2: Right, 3: Up, 4: Down
-    public int currentMovementDirection;
 
+    public Vector3 vectorAdd;
     public bool atPosition = true;
 
     public float fraction;
 
     public float movementIteration;
 
+    public int direction;
+    
     public float speed;
+    private bool currentlyMoving;
 
-    public bool test;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,30 +33,54 @@ public class FourWayMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (test)
-        {
-            test = false;
-            atPosition = true;
-        }
-
-        if (currentMovementDirection == 4)
-        {
-            DownMovement();
-        }
+        Movement();    
     }
-    
-    private void DownMovement()
+
+    public void MyVector(Vector3 myVector3)
+    {
+        
+    }
+
+    public void SetX(float myFloat)
     {
         if (atPosition)
         {
-            atPosition = false;
+            vectorAdd = new Vector3(myFloat, vectorAdd.y, vectorAdd.z);
+        }
+    }
 
+    public void SetY(float myFloat)
+    {
+        if (atPosition)
+        {
+            vectorAdd = new Vector3(vectorAdd.x, myFloat, vectorAdd.z);
+        }
+    }
+
+    public void SetZ(float myFloat)
+    {
+        if (atPosition)
+        {
+            vectorAdd = new Vector3(vectorAdd.x, vectorAdd.y, myFloat);
+        }
+    }
+
+    public void BeginMovement()
+    {
+        if (atPosition)
+        {
             fraction = 0;
 
-            currentEnd = transform.position + new Vector3(0, movementIteration, movementIteration);
+            currentEnd = transform.position + vectorAdd;
             currentBeginning = transform.position;
+            
+            atPosition = false;
         }
-
+    }
+    
+    // Movement position determined by given vectorAdd.
+    private void Movement()
+    {
         if (atPosition == false)
         {
             Debug.Log("Moving from beginning to end");
@@ -64,9 +90,10 @@ public class FourWayMovement : MonoBehaviour
                 fraction = 1;
             }
             transform.position = Vector3.Lerp(currentBeginning, currentEnd, fraction);
+            
             if (transform.position == currentEnd)
             {
-                currentMovementDirection = 0;
+                currentlyMoving = false;
                 atPosition = true;
                 transform.position = currentEnd;
             }   
