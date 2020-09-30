@@ -35,7 +35,6 @@ public class FourWayMovement : MonoBehaviour
         {
             test = false;
             atPosition = true;
-            currentMovementDirection = 4;
         }
 
         if (currentMovementDirection == 4)
@@ -52,7 +51,7 @@ public class FourWayMovement : MonoBehaviour
 
             fraction = 0;
 
-            currentEnd = transform.position + new Vector3(0, 0, -movementIteration);
+            currentEnd = transform.position + new Vector3(0, movementIteration, movementIteration);
             currentBeginning = transform.position;
         }
 

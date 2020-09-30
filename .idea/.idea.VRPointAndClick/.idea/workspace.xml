@@ -35,22 +35,22 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/Assets/Scripts/FourWayMovement.cs">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="704">
-                    <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+                  <state relative-caret-position="768">
+                    <caret line="53" column="78" selection-start-line="53" selection-start-column="78" selection-end-line="53" selection-end-column="78" />
                     <folding>
-                      <marker date="1601433296231" expanded="false" signature="6:78" ph="..." />
-                      <marker date="1601433296231" expanded="true" signature="124:1804" ph="{...}" />
-                      <marker date="1601433296231" expanded="true" signature="131:282" ph="/* public int leftMin, leftMax, rightMin, rightMax, upMin, upMax, downMin, downMax; ... */" />
-                      <marker date="1601433296231" expanded="true" signature="638:659" ph="{...}" />
-                      <marker date="1601433296231" expanded="true" signature="717:958" ph="{...}" />
-                      <marker date="1601433296231" expanded="true" signature="741:860" ph="{...}" />
-                      <marker date="1601433296231" expanded="true" signature="904:952" ph="{...}" />
-                      <marker date="1601433296231" expanded="true" signature="995:1744" ph="{...}" />
-                      <marker date="1601433296231" expanded="true" signature="1025:1241" ph="{...}" />
-                      <marker date="1601433296231" expanded="true" signature="1275:1738" ph="{...}" />
-                      <marker date="1601433296231" expanded="true" signature="1418:1476" ph="{...}" />
-                      <marker date="1601433296231" expanded="true" signature="1613:1725" ph="{...}" />
-                      <marker date="1601433296231" expanded="true" signature="1781:1802" ph="{...}" />
+                      <marker date="1601434239969" expanded="false" signature="6:78" ph="..." />
+                      <marker date="1601434239969" expanded="true" signature="124:1831" ph="{...}" />
+                      <marker date="1601434239969" expanded="true" signature="131:282" ph="/* public int leftMin, leftMax, rightMin, rightMax, upMin, upMax, downMin, downMax; ... */" />
+                      <marker date="1601434239969" expanded="true" signature="646:667" ph="{...}" />
+                      <marker date="1601434239969" expanded="true" signature="725:924" ph="{...}" />
+                      <marker date="1601434239969" expanded="true" signature="749:826" ph="{...}" />
+                      <marker date="1601434239969" expanded="true" signature="870:918" ph="{...}" />
+                      <marker date="1601434239969" expanded="true" signature="961:1771" ph="{...}" />
+                      <marker date="1601434239969" expanded="true" signature="991:1222" ph="{...}" />
+                      <marker date="1601434239969" expanded="true" signature="1256:1765" ph="{...}" />
+                      <marker date="1601434239969" expanded="true" signature="1399:1457" ph="{...}" />
+                      <marker date="1601434239969" expanded="true" signature="1594:1752" ph="{...}" />
+                      <marker date="1601434239969" expanded="true" signature="1808:1829" ph="{...}" />
                     </folding>
                   </state>
                 </provider>
@@ -335,12 +335,12 @@
       <workItem from="1601325576016" duration="7583000" />
       <workItem from="1601409819802" duration="8086000" />
       <workItem from="1601422504313" duration="308000" />
-      <workItem from="1601422842020" duration="8286000" />
+      <workItem from="1601422842020" duration="9096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45792000" />
+    <option name="totallyTimeSpent" value="46602000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -649,22 +649,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FourWayMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+        <state relative-caret-position="768">
+          <caret line="53" column="78" selection-start-line="53" selection-start-column="78" selection-end-line="53" selection-end-column="78" />
           <folding>
-            <marker date="1601433296231" expanded="false" signature="6:78" ph="..." />
-            <marker date="1601433296231" expanded="true" signature="124:1804" ph="{...}" />
-            <marker date="1601433296231" expanded="true" signature="131:282" ph="/* public int leftMin, leftMax, rightMin, rightMax, upMin, upMax, downMin, downMax; ... */" />
-            <marker date="1601433296231" expanded="true" signature="638:659" ph="{...}" />
-            <marker date="1601433296231" expanded="true" signature="717:958" ph="{...}" />
-            <marker date="1601433296231" expanded="true" signature="741:860" ph="{...}" />
-            <marker date="1601433296231" expanded="true" signature="904:952" ph="{...}" />
-            <marker date="1601433296231" expanded="true" signature="995:1744" ph="{...}" />
-            <marker date="1601433296231" expanded="true" signature="1025:1241" ph="{...}" />
-            <marker date="1601433296231" expanded="true" signature="1275:1738" ph="{...}" />
-            <marker date="1601433296231" expanded="true" signature="1418:1476" ph="{...}" />
-            <marker date="1601433296231" expanded="true" signature="1613:1725" ph="{...}" />
-            <marker date="1601433296231" expanded="true" signature="1781:1802" ph="{...}" />
+            <marker date="1601434239969" expanded="false" signature="6:78" ph="..." />
+            <marker date="1601434239969" expanded="true" signature="124:1831" ph="{...}" />
+            <marker date="1601434239969" expanded="true" signature="131:282" ph="/* public int leftMin, leftMax, rightMin, rightMax, upMin, upMax, downMin, downMax; ... */" />
+            <marker date="1601434239969" expanded="true" signature="646:667" ph="{...}" />
+            <marker date="1601434239969" expanded="true" signature="725:924" ph="{...}" />
+            <marker date="1601434239969" expanded="true" signature="749:826" ph="{...}" />
+            <marker date="1601434239969" expanded="true" signature="870:918" ph="{...}" />
+            <marker date="1601434239969" expanded="true" signature="961:1771" ph="{...}" />
+            <marker date="1601434239969" expanded="true" signature="991:1222" ph="{...}" />
+            <marker date="1601434239969" expanded="true" signature="1256:1765" ph="{...}" />
+            <marker date="1601434239969" expanded="true" signature="1399:1457" ph="{...}" />
+            <marker date="1601434239969" expanded="true" signature="1594:1752" ph="{...}" />
+            <marker date="1601434239969" expanded="true" signature="1808:1829" ph="{...}" />
           </folding>
         </state>
       </provider>
