@@ -16,16 +16,16 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/Assets/Scripts/BecomeChildToPlatform.cs">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="672">
-                    <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+                  <state>
+                    <caret column="124" selection-start-column="124" selection-end-column="124" />
                     <folding>
-                      <marker date="1601426887633" expanded="true" signature="6:142" ph="..." />
-                      <marker date="1601426887633" expanded="true" signature="194:1187" ph="{...}" />
-                      <marker date="1601426887633" expanded="true" signature="430:567" ph="{...}" />
-                      <marker date="1601426887633" expanded="true" signature="625:1036" ph="{...}" />
-                      <marker date="1601426887633" expanded="true" signature="659:1030" ph="{...}" />
-                      <marker date="1601426887633" expanded="true" signature="754:1020" ph="{...}" />
-                      <marker date="1601426887633" expanded="true" signature="1099:1185" ph="{...}" />
+                      <marker date="1601427173983" expanded="true" signature="132:268" ph="..." />
+                      <marker date="1601427173983" expanded="true" signature="320:1313" ph="{...}" />
+                      <marker date="1601427173983" expanded="true" signature="556:693" ph="{...}" />
+                      <marker date="1601427173983" expanded="true" signature="751:1162" ph="{...}" />
+                      <marker date="1601427173983" expanded="true" signature="785:1156" ph="{...}" />
+                      <marker date="1601427173983" expanded="true" signature="880:1146" ph="{...}" />
+                      <marker date="1601427173983" expanded="true" signature="1225:1311" ph="{...}" />
                     </folding>
                   </state>
                 </provider>
@@ -102,13 +102,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChildXR.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state>
+              <caret column="125" lean-forward="true" selection-start-column="125" selection-end-column="125" />
               <folding>
-                <marker date="1601427040935" expanded="true" signature="56:623" ph="{...}" />
-                <marker date="1601427040935" expanded="true" signature="132:247" ph="{...}" />
-                <marker date="1601427040935" expanded="true" signature="278:497" ph="{...}" />
-                <marker date="1601427040935" expanded="true" signature="526:621" ph="{...}" />
+                <marker date="1601427379128" expanded="true" signature="127:756" ph="/* using UnityEngine; ... */" />
               </folding>
             </state>
           </provider>
@@ -282,12 +279,12 @@
       <workItem from="1601325576016" duration="7583000" />
       <workItem from="1601409819802" duration="8086000" />
       <workItem from="1601422504313" duration="308000" />
-      <workItem from="1601422842020" duration="2855000" />
+      <workItem from="1601422842020" duration="3192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40361000" />
+    <option name="totallyTimeSpent" value="40698000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -561,29 +558,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BecomeChildToPlatform.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state>
+          <caret column="124" selection-start-column="124" selection-end-column="124" />
           <folding>
-            <marker date="1601426887633" expanded="true" signature="6:142" ph="..." />
-            <marker date="1601426887633" expanded="true" signature="194:1187" ph="{...}" />
-            <marker date="1601426887633" expanded="true" signature="430:567" ph="{...}" />
-            <marker date="1601426887633" expanded="true" signature="625:1036" ph="{...}" />
-            <marker date="1601426887633" expanded="true" signature="659:1030" ph="{...}" />
-            <marker date="1601426887633" expanded="true" signature="754:1020" ph="{...}" />
-            <marker date="1601426887633" expanded="true" signature="1099:1185" ph="{...}" />
+            <marker date="1601427173983" expanded="true" signature="132:268" ph="..." />
+            <marker date="1601427173983" expanded="true" signature="320:1313" ph="{...}" />
+            <marker date="1601427173983" expanded="true" signature="556:693" ph="{...}" />
+            <marker date="1601427173983" expanded="true" signature="751:1162" ph="{...}" />
+            <marker date="1601427173983" expanded="true" signature="785:1156" ph="{...}" />
+            <marker date="1601427173983" expanded="true" signature="880:1146" ph="{...}" />
+            <marker date="1601427173983" expanded="true" signature="1225:1311" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChildXR.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state>
+          <caret column="125" lean-forward="true" selection-start-column="125" selection-end-column="125" />
           <folding>
-            <marker date="1601427040935" expanded="true" signature="56:623" ph="{...}" />
-            <marker date="1601427040935" expanded="true" signature="132:247" ph="{...}" />
-            <marker date="1601427040935" expanded="true" signature="278:497" ph="{...}" />
-            <marker date="1601427040935" expanded="true" signature="526:621" ph="{...}" />
+            <marker date="1601427379128" expanded="true" signature="127:756" ph="/* using UnityEngine; ... */" />
           </folding>
         </state>
       </provider>

@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿// Obsolete code: Originally childs XR Rig to one platform, but now this is done with every platform the player teleports to.
+
+/*
+using UnityEngine;
 
 public class ChildXR : MonoBehaviour
 {
@@ -25,3 +28,4 @@ public class ChildXR : MonoBehaviour
         XRObj.transform.localScale = scale;
     }
 }
+*/
