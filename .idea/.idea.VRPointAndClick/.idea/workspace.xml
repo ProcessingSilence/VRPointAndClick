@@ -83,7 +83,7 @@
               <entry file="file://$PROJECT_DIR$/Assets/Scripts/RespawnObj.cs">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="96">
-                    <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+                    <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
                     <folding>
                       <marker date="1601503962439" expanded="false" signature="6:78" ph="..." />
                       <marker date="1601503962439" expanded="true" signature="119:564" ph="{...}" />
@@ -95,11 +95,11 @@
                 </provider>
               </entry>
             </file>
-            <file pinned="false" current-in-tab="true">
+            <file pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/Assets/Scripts/DropGlass.cs">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="416">
-                    <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+                  <state relative-caret-position="464">
+                    <caret line="29" selection-start-line="29" selection-end-line="29" />
                     <folding>
                       <marker date="1601516792947" expanded="true" signature="0:206" ph="/* Makes glass fall upon being called. ... */" />
                       <marker date="1601516792947" expanded="true" signature="214:252" ph="..." />
@@ -107,6 +107,24 @@
                       <marker date="1601516792947" expanded="true" signature="353:617" ph="{...}" />
                       <marker date="1601516792947" expanded="true" signature="393:611" ph="{...}" />
                       <marker date="1601516792947" expanded="true" signature="653:748" ph="{...}" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/Assets/Scripts/GoalPedestal.cs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="816">
+                    <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+                    <folding>
+                      <marker date="1601522640545" expanded="true" signature="6:135" ph="..." />
+                      <marker date="1601522640545" expanded="true" signature="178:1547" ph="{...}" />
+                      <marker date="1601522640545" expanded="true" signature="554:668" ph="{...}" />
+                      <marker date="1601522640545" expanded="true" signature="741:927" ph="{...}" />
+                      <marker date="1601522640545" expanded="true" signature="782:921" ph="{...}" />
+                      <marker date="1601522640545" expanded="true" signature="959:1541" ph="{...}" />
+                      <marker date="1601522640545" expanded="true" signature="1361:1491" ph="{...}" />
                     </folding>
                   </state>
                 </provider>
@@ -137,7 +155,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMovePlatform.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
@@ -157,6 +175,25 @@
                 <marker date="1601415206568" expanded="true" signature="1524:1633" ph="{...}" />
                 <marker date="1601415206568" expanded="true" signature="1720:2066" ph="{...}" />
                 <marker date="1601415206568" expanded="true" signature="1941:2056" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Graphics/Default_OverlayNoZTest.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <marker date="1601517844231" expanded="true" signature="0:250" ph="/* This shader is not mine, it was found from the link below ... */" />
+                <marker date="1601517844231" expanded="true" signature="287:2674" ph="{...}" />
+                <marker date="1601517844231" expanded="true" signature="310:770" ph="{...}" />
+                <marker date="1601517844231" expanded="true" signature="793:2671" ph="{...}" />
+                <marker date="1601517844231" expanded="true" signature="818:1018" ph="{...}" />
+                <marker date="1601517844231" expanded="true" signature="1055:1244" ph="{...}" />
+                <marker date="1601517844231" expanded="true" signature="1424:2664" ph="{...}" />
+                <marker date="1601517844231" expanded="true" signature="1444:2648" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -277,9 +314,9 @@
       <find>changeParent</find>
       <find>platform</find>
       <find>areaParent</find>
-      <find>platformParent</find>
       <find>int</find>
       <find>fraction</find>
+      <find>platformParent</find>
     </findStrings>
     <replaceStrings>
       <replace>primaryIsUpFlag</replace>
@@ -291,9 +328,9 @@
       <replace>Movement</replace>
       <replace>decideIfParent</replace>
       <replace>transform</replace>
-      <replace>_platformParent</replace>
       <replace>float</replace>
       <replace>platformParent</replace>
+      <replace>_platformParent</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -318,13 +355,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ControlledPlatformMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Testing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextDisappear.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Graphics/Default_OverlayNoZTest.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/TutorialScenes/ReticleScaleMaintainer.cs" />
         <option value="$PROJECT_DIR$/Assets/Testing.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GoalPedestal.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpriteOverEverything.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/textDisappear.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextDisappear.cs" />
@@ -339,11 +376,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/OrangeParentPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RespawnObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DropGlass.cs" />
+        <option value="$PROJECT_DIR$/Assets/Graphics/OverEverything.shader" />
+        <option value="$PROJECT_DIR$/Assets/Graphics/Default_OverlayNoZTest.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GoalPedestal.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1273" />
+    <option name="x" value="-7" />
     <option name="width" value="1294" />
     <option name="height" value="1407" />
   </component>
@@ -402,12 +442,12 @@
       <workItem from="1601325576016" duration="7583000" />
       <workItem from="1601409819802" duration="8086000" />
       <workItem from="1601422504313" duration="308000" />
-      <workItem from="1601422842020" duration="15560000" />
+      <workItem from="1601422842020" duration="18933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53066000" />
+    <option name="totallyTimeSpent" value="56439000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -419,7 +459,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1273" y="0" width="1294" height="1407" extended-state="1" />
+    <frame x="-7" y="0" width="1294" height="1407" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24959481" />
@@ -495,20 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GoalPedestal.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <marker date="1601254876455" expanded="false" signature="6:79" ph="..." />
-            <marker date="1601254876455" expanded="true" signature="122:552" ph="{...}" />
-            <marker date="1601254876455" expanded="true" signature="257:404" ph="{...}" />
-            <marker date="1601254876455" expanded="true" signature="298:398" ph="{...}" />
-            <marker date="1601254876455" expanded="true" signature="436:546" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoverPedestal.cs" />
     <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Locomotion/Teleportation/TeleportationArea.cs">
       <provider selected="true" editor-type-id="text-editor" />
@@ -551,22 +577,6 @@
             <marker date="1600040215724" expanded="true" signature="566:780" ph="{...}" />
             <marker date="1600040215724" expanded="true" signature="820:1068" ph="{...}" />
             <marker date="1600040215724" expanded="true" signature="971:1024" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Instructions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1600128360073" expanded="false" signature="6:78" ph="..." />
-            <marker date="1600128360073" expanded="true" signature="121:1262" ph="{...}" />
-            <marker date="1600128360073" expanded="true" signature="353:562" ph="{...}" />
-            <marker date="1600128360073" expanded="true" signature="633:810" ph="{...}" />
-            <marker date="1600128360073" expanded="true" signature="868:1065" ph="{...}" />
-            <marker date="1600128360073" expanded="true" signature="906:1059" ph="{...}" />
-            <marker date="1600128360073" expanded="true" signature="1088:1260" ph="{...}" />
-            <marker date="1600128360073" expanded="true" signature="1130:1254" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -760,7 +770,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/RespawnObj.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
             <marker date="1601503962439" expanded="false" signature="6:78" ph="..." />
             <marker date="1601503962439" expanded="true" signature="119:564" ph="{...}" />
@@ -771,10 +781,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Graphics/OverEverything.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Instructions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1600128360073" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600128360073" expanded="true" signature="121:1262" ph="{...}" />
+            <marker date="1600128360073" expanded="true" signature="353:562" ph="{...}" />
+            <marker date="1600128360073" expanded="true" signature="633:810" ph="{...}" />
+            <marker date="1600128360073" expanded="true" signature="868:1065" ph="{...}" />
+            <marker date="1600128360073" expanded="true" signature="906:1059" ph="{...}" />
+            <marker date="1600128360073" expanded="true" signature="1088:1260" ph="{...}" />
+            <marker date="1600128360073" expanded="true" signature="1130:1254" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Graphics/Default_OverlayNoZTest.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <marker date="1601517844231" expanded="true" signature="0:250" ph="/* This shader is not mine, it was found from the link below ... */" />
+            <marker date="1601517844231" expanded="true" signature="287:2674" ph="{...}" />
+            <marker date="1601517844231" expanded="true" signature="310:770" ph="{...}" />
+            <marker date="1601517844231" expanded="true" signature="793:2671" ph="{...}" />
+            <marker date="1601517844231" expanded="true" signature="818:1018" ph="{...}" />
+            <marker date="1601517844231" expanded="true" signature="1055:1244" ph="{...}" />
+            <marker date="1601517844231" expanded="true" signature="1424:2664" ph="{...}" />
+            <marker date="1601517844231" expanded="true" signature="1444:2648" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DropGlass.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        <state relative-caret-position="464">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <marker date="1601516792947" expanded="true" signature="0:206" ph="/* Makes glass fall upon being called. ... */" />
             <marker date="1601516792947" expanded="true" signature="214:252" ph="..." />
@@ -782,6 +832,22 @@
             <marker date="1601516792947" expanded="true" signature="353:617" ph="{...}" />
             <marker date="1601516792947" expanded="true" signature="393:611" ph="{...}" />
             <marker date="1601516792947" expanded="true" signature="653:748" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GoalPedestal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+          <folding>
+            <marker date="1601522640545" expanded="true" signature="6:135" ph="..." />
+            <marker date="1601522640545" expanded="true" signature="178:1547" ph="{...}" />
+            <marker date="1601522640545" expanded="true" signature="554:668" ph="{...}" />
+            <marker date="1601522640545" expanded="true" signature="741:927" ph="{...}" />
+            <marker date="1601522640545" expanded="true" signature="782:921" ph="{...}" />
+            <marker date="1601522640545" expanded="true" signature="959:1541" ph="{...}" />
+            <marker date="1601522640545" expanded="true" signature="1361:1491" ph="{...}" />
           </folding>
         </state>
       </provider>

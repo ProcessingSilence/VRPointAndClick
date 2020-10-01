@@ -10,6 +10,7 @@
           <e p="AudioCredits.txt" t="Include" />
         </e>
         <e p="Graphics" t="Include">
+          <e p="Default_OverlayNoZTest.shader" t="Include" />
           <e p="LunchboxFontSource.txt" t="Include" />
           <e p="OrangeModelSource.txt" t="Include" />
           <e p="Readme(PublicDomain).txt" t="Include" />
