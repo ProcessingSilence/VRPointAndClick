@@ -9,11 +9,17 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Baseballz.unity
-    guid: fcbd8684a0d82b3428809e5d60a5f711
+    path: Assets/Scenes/level_0.unity
+    guid: 6422a3a167716104f8b10bc59c3e8ad6
   - enabled: 1
     path: Assets/Scenes/level_1.unity
     guid: f54872855052b024580f0902bffb933d
+  - enabled: 1
+    path: Assets/Scenes/level_2.unity
+    guid: 4c0fbe5302efc4a47b9a6ecd929c8ef0
+  - enabled: 1
+    path: Assets/Scenes/level_3.unity
+    guid: 02b235a7adeb5f747b294fdfc6d43176
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 90b784a1775b9d24e923d3c6204208d7,
       type: 2}

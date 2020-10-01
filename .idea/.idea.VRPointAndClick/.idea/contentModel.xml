@@ -42,6 +42,7 @@
           <e p="ControlledPlatformMovement.cs" t="Include" />
           <e p="CubeCounter.cs" t="Include" />
           <e p="Door.cs" t="Include" />
+          <e p="DropGlass.cs" t="Include" />
           <e p="Explosive.cs" t="Include" />
           <e p="FourWayMovement.cs" t="Include" />
           <e p="GameStats.cs" t="Include" />

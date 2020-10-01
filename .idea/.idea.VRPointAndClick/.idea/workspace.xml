@@ -79,15 +79,34 @@
                 </provider>
               </entry>
             </file>
-            <file pinned="false" current-in-tab="true">
+            <file pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/Assets/Scripts/RespawnObj.cs">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state>
+                  <state relative-caret-position="96">
+                    <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
                     <folding>
-                      <marker date="1601503779093" expanded="false" signature="6:78" ph="..." />
-                      <marker date="1601503779093" expanded="true" signature="119:293" ph="{...}" />
-                      <marker date="1601503779093" expanded="true" signature="191:212" ph="{...}" />
-                      <marker date="1601503779093" expanded="true" signature="270:291" ph="{...}" />
+                      <marker date="1601503962439" expanded="false" signature="6:78" ph="..." />
+                      <marker date="1601503962439" expanded="true" signature="119:564" ph="{...}" />
+                      <marker date="1601503962439" expanded="true" signature="252:346" ph="{...}" />
+                      <marker date="1601503962439" expanded="true" signature="404:562" ph="{...}" />
+                      <marker date="1601503962439" expanded="true" signature="450:556" ph="{...}" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/Assets/Scripts/DropGlass.cs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="416">
+                    <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+                    <folding>
+                      <marker date="1601516792947" expanded="true" signature="0:206" ph="/* Makes glass fall upon being called. ... */" />
+                      <marker date="1601516792947" expanded="true" signature="214:252" ph="..." />
+                      <marker date="1601516792947" expanded="true" signature="292:750" ph="{...}" />
+                      <marker date="1601516792947" expanded="true" signature="353:617" ph="{...}" />
+                      <marker date="1601516792947" expanded="true" signature="393:611" ph="{...}" />
+                      <marker date="1601516792947" expanded="true" signature="653:748" ph="{...}" />
                     </folding>
                   </state>
                 </provider>
@@ -291,6 +310,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChildXR.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OrangeParentPlatform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/XR/XRRig.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DropGlass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BecomeChildToPlatform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Instructions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Locomotion/LocomotionSystem.cs" root0="SKIP_HIGHLIGHTING" />
@@ -317,6 +337,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/BecomeChildToPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FourWayMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OrangeParentPlatform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RespawnObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DropGlass.cs" />
       </list>
     </option>
   </component>
@@ -380,12 +402,12 @@
       <workItem from="1601325576016" duration="7583000" />
       <workItem from="1601409819802" duration="8086000" />
       <workItem from="1601422504313" duration="308000" />
-      <workItem from="1601422842020" duration="14190000" />
+      <workItem from="1601422842020" duration="15560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51696000" />
+    <option name="totallyTimeSpent" value="53066000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -737,12 +759,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/RespawnObj.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="96">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
-            <marker date="1601503779093" expanded="false" signature="6:78" ph="..." />
-            <marker date="1601503779093" expanded="true" signature="119:293" ph="{...}" />
-            <marker date="1601503779093" expanded="true" signature="191:212" ph="{...}" />
-            <marker date="1601503779093" expanded="true" signature="270:291" ph="{...}" />
+            <marker date="1601503962439" expanded="false" signature="6:78" ph="..." />
+            <marker date="1601503962439" expanded="true" signature="119:564" ph="{...}" />
+            <marker date="1601503962439" expanded="true" signature="252:346" ph="{...}" />
+            <marker date="1601503962439" expanded="true" signature="404:562" ph="{...}" />
+            <marker date="1601503962439" expanded="true" signature="450:556" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DropGlass.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <marker date="1601516792947" expanded="true" signature="0:206" ph="/* Makes glass fall upon being called. ... */" />
+            <marker date="1601516792947" expanded="true" signature="214:252" ph="..." />
+            <marker date="1601516792947" expanded="true" signature="292:750" ph="{...}" />
+            <marker date="1601516792947" expanded="true" signature="353:617" ph="{...}" />
+            <marker date="1601516792947" expanded="true" signature="393:611" ph="{...}" />
+            <marker date="1601516792947" expanded="true" signature="653:748" ph="{...}" />
           </folding>
         </state>
       </provider>
