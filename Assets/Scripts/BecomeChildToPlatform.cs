@@ -16,11 +16,13 @@ public class BecomeChildToPlatform : MonoBehaviour
     public XRBaseInteractor rightController, leftController;
 
     private bool decideIfParent;
+    private AudioSource _audioSource;
 
     void Awake()
     {
         rightController.onSelectExit.AddListener(GetPlatform);
         leftController.onSelectExit.AddListener(GetPlatform);
+        _audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -34,6 +36,7 @@ public class BecomeChildToPlatform : MonoBehaviour
                 _platformParent = platform;
                 transform.parent = _platformParent;
                 transform.localScale = new Vector3 (1/_platformParent.localScale.x,1/_platformParent.localScale.y,1/_platformParent.localScale.z);
+                _audioSource.Play();
             }
         }
     }

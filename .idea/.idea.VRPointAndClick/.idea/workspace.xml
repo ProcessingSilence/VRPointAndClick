@@ -13,20 +13,20 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file pinned="false" current-in-tab="false">
+            <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/Assets/Scripts/BecomeChildToPlatform.cs">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="656">
-                    <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+                  <state relative-caret-position="592">
+                    <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
                     <folding>
-                      <marker date="1601498423749" expanded="true" signature="0:204" ph="/* Upon teleportation to a platform: ... */" />
-                      <marker date="1601498423749" expanded="true" signature="212:348" ph="..." />
-                      <marker date="1601498423749" expanded="true" signature="400:1348" ph="{...}" />
-                      <marker date="1601498423749" expanded="true" signature="586:723" ph="{...}" />
-                      <marker date="1601498423749" expanded="true" signature="781:1197" ph="{...}" />
-                      <marker date="1601498423749" expanded="true" signature="815:1191" ph="{...}" />
-                      <marker date="1601498423749" expanded="true" signature="910:1181" ph="{...}" />
-                      <marker date="1601498423749" expanded="true" signature="1260:1346" ph="{...}" />
+                      <marker date="1601526566252" expanded="true" signature="0:204" ph="/* Upon teleportation to a platform: ... */" />
+                      <marker date="1601526566252" expanded="true" signature="212:348" ph="..." />
+                      <marker date="1601526566252" expanded="true" signature="400:1423" ph="{...}" />
+                      <marker date="1601526566252" expanded="true" signature="624:761" ph="{...}" />
+                      <marker date="1601526566252" expanded="true" signature="819:1272" ph="{...}" />
+                      <marker date="1601526566252" expanded="true" signature="853:1266" ph="{...}" />
+                      <marker date="1601526566252" expanded="true" signature="948:1256" ph="{...}" />
+                      <marker date="1601526566252" expanded="true" signature="1335:1421" ph="{...}" />
                     </folding>
                   </state>
                 </provider>
@@ -112,10 +112,10 @@
                 </provider>
               </entry>
             </file>
-            <file pinned="false" current-in-tab="true">
+            <file pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/Assets/Scripts/GoalPedestal.cs">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="864">
+                  <state relative-caret-position="848">
                     <caret line="54" selection-start-line="54" selection-end-line="54" />
                     <folding>
                       <marker date="1601522640545" expanded="true" signature="6:135" ph="..." />
@@ -125,6 +125,65 @@
                       <marker date="1601522640545" expanded="true" signature="782:921" ph="{...}" />
                       <marker date="1601522640545" expanded="true" signature="959:1541" ph="{...}" />
                       <marker date="1601522640545" expanded="true" signature="1361:1491" ph="{...}" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/Assets/Scripts/PickupDropSounds.cs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="320">
+                    <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+                    <folding>
+                      <marker date="1601524817223" expanded="false" signature="6:78" ph="..." />
+                      <marker date="1601524817223" expanded="true" signature="125:472" ph="{...}" />
+                      <marker date="1601524817223" expanded="true" signature="217:281" ph="{...}" />
+                      <marker date="1601524817223" expanded="true" signature="301:378" ph="{...}" />
+                      <marker date="1601524817223" expanded="true" signature="395:470" ph="{...}" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Locomotion/Teleportation/TeleportationProvider.cs">
+                <provider selected="true" editor-type-id="text-editor" />
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Locomotion/LocomotionSystem.cs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="1773">
+                    <caret line="118" column="31" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
+                    <folding>
+                      <marker date="1586289529000" expanded="false" signature="6:32" ph="..." />
+                      <marker date="1586289529000" expanded="true" signature="78:4471" ph="{...}" />
+                      <marker date="1586289529000" expanded="true" signature="85:160" ph="/// The result of a locomotion request ... " />
+                      <marker date="1586289529000" expanded="true" signature="190:580" ph="{...}" />
+                      <marker date="1586289529000" expanded="true" signature="205:291" ph="/// The locomotion request was successful ... " />
+                      <marker date="1586289529000" expanded="true" signature="317:434" ph="/// The locomotion request failed due to the system being currently busy ... " />
+                      <marker date="1586289529000" expanded="true" signature="457:559" ph="/// The locomotion request failed due to an unknown error ... " />
+                      <marker date="1586289529000" expanded="true" signature="586:938" ph="/// The LocomotionSystem object is used to control access to the XR Rig. This system enforces that only one ... " />
+                      <marker date="1586289529000" expanded="true" signature="988:4469" ph="{...}" />
+                      <marker date="1586289529000" expanded="true" signature="1291:1386" ph="/// The timeout for exclusive access to the XR Rig ... " />
+                      <marker date="1586289529000" expanded="true" signature="1605:1701" ph="/// The XR Rig object to provide access control to. ... " />
+                      <marker date="1586289529000" expanded="true" signature="1789:1966" ph="/// Is a locomotion request already being performed ... " />
+                      <marker date="1586289529000" expanded="true" signature="1991:2114" ph="{...}" />
+                      <marker date="1586289529000" expanded="true" signature="2017:2104" ph="{...}" />
+                      <marker date="1586289529000" expanded="true" signature="2124:2470" ph="/// The RequestExclusiveOperation function will attempt to &quot;lock&quot; access to the XR Rig for the Locomotion Provide ... " />
+                      <marker date="1586289529000" expanded="true" signature="2554:3050" ph="{...}" />
+                      <marker date="1586289529000" expanded="true" signature="2694:2872" ph="{...}" />
+                      <marker date="1586289529000" expanded="true" signature="2928:2999" ph="{...}" />
+                      <marker date="1586289529000" expanded="true" signature="3092:3199" ph="{...}" />
+                      <marker date="1586289529000" expanded="true" signature="3209:3541" ph="/// This function informs the LocomotionSystem that Exclusive Access to the XR Rig is no longer required. ... " />
+                      <marker date="1586289529000" expanded="true" signature="3624:4022" ph="{...}" />
+                      <marker date="1586289529000" expanded="true" signature="3805:3915" ph="{...}" />
+                      <marker date="1586289529000" expanded="true" signature="3932:4004" ph="{...}" />
+                      <marker date="1586289529000" expanded="true" signature="4032:4109" ph="/// The standard update function ... " />
+                      <marker date="1586289529000" expanded="true" signature="4138:4321" ph="{...}" />
+                      <marker date="1586289529000" expanded="true" signature="4247:4311" ph="{...}" />
+                      <marker date="1586289529000" expanded="true" signature="4351:4463" ph="{...}" />
                     </folding>
                   </state>
                 </provider>
@@ -180,7 +239,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Graphics/Default_OverlayNoZTest.shader">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="32">
@@ -288,11 +347,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/XR/XRRig.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1217">
-              <caret line="135" column="60" selection-start-line="135" selection-start-column="60" selection-end-line="135" selection-end-column="60" />
+            <state relative-caret-position="406">
+              <caret line="58" column="70" selection-start-line="58" selection-start-column="70" selection-end-line="58" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -317,6 +376,7 @@
       <find>int</find>
       <find>fraction</find>
       <find>platformParent</find>
+      <find>tele</find>
     </findStrings>
     <replaceStrings>
       <replace>primaryIsUpFlag</replace>
@@ -340,6 +400,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMovePlatform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FourWayMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Locomotion/Teleportation/TeleportationArea.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Locomotion/Teleportation/TeleportationProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewImageEffectShader.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GoalPedestal.cs" root0="FORCE_HIGHLIGHTING" />
@@ -354,6 +415,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RespawnObj.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ControlledPlatformMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Testing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickupDropSounds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextDisappear.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Graphics/Default_OverlayNoZTest.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -371,7 +433,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PedestalMovePlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChildXR.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BecomeChildToPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FourWayMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OrangeParentPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RespawnObj.cs" />
@@ -379,10 +440,12 @@
         <option value="$PROJECT_DIR$/Assets/Graphics/OverEverything.shader" />
         <option value="$PROJECT_DIR$/Assets/Graphics/Default_OverlayNoZTest.shader" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GoalPedestal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PickupDropSounds.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BecomeChildToPlatform.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="1294" />
     <option name="height" value="1407" />
@@ -442,12 +505,12 @@
       <workItem from="1601325576016" duration="7583000" />
       <workItem from="1601409819802" duration="8086000" />
       <workItem from="1601422504313" duration="308000" />
-      <workItem from="1601422842020" duration="19530000" />
+      <workItem from="1601422842020" duration="20491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57036000" />
+    <option name="totallyTimeSpent" value="57997000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -459,7 +522,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1407" extended-state="1" />
+    <frame x="-7" y="0" width="1294" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24959481" />
@@ -581,20 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/XR/XRRig.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1217">
-          <caret line="135" column="60" selection-start-line="135" selection-start-column="60" selection-end-line="135" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Locomotion/LocomotionSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-464">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/NewImageEffectShader.shader">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -680,23 +729,6 @@
             <marker date="1601429273637" expanded="true" signature="1810:2297" ph="{...}" />
             <marker date="1601429273637" expanded="true" signature="1953:2011" ph="{...}" />
             <marker date="1601429273637" expanded="true" signature="2133:2287" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BecomeChildToPlatform.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <marker date="1601498423749" expanded="true" signature="0:204" ph="/* Upon teleportation to a platform: ... */" />
-            <marker date="1601498423749" expanded="true" signature="212:348" ph="..." />
-            <marker date="1601498423749" expanded="true" signature="400:1348" ph="{...}" />
-            <marker date="1601498423749" expanded="true" signature="586:723" ph="{...}" />
-            <marker date="1601498423749" expanded="true" signature="781:1197" ph="{...}" />
-            <marker date="1601498423749" expanded="true" signature="815:1191" ph="{...}" />
-            <marker date="1601498423749" expanded="true" signature="910:1181" ph="{...}" />
-            <marker date="1601498423749" expanded="true" signature="1260:1346" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -838,7 +870,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GoalPedestal.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
+        <state relative-caret-position="848">
           <caret line="54" selection-start-line="54" selection-end-line="54" />
           <folding>
             <marker date="1601522640545" expanded="true" signature="6:135" ph="..." />
@@ -848,6 +880,83 @@
             <marker date="1601522640545" expanded="true" signature="782:921" ph="{...}" />
             <marker date="1601522640545" expanded="true" signature="959:1541" ph="{...}" />
             <marker date="1601522640545" expanded="true" signature="1361:1491" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PickupDropSounds.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <marker date="1601524817223" expanded="false" signature="6:78" ph="..." />
+            <marker date="1601524817223" expanded="true" signature="125:472" ph="{...}" />
+            <marker date="1601524817223" expanded="true" signature="217:281" ph="{...}" />
+            <marker date="1601524817223" expanded="true" signature="301:378" ph="{...}" />
+            <marker date="1601524817223" expanded="true" signature="395:470" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Locomotion/LocomotionSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1773">
+          <caret line="118" column="31" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
+          <folding>
+            <marker date="1586289529000" expanded="false" signature="6:32" ph="..." />
+            <marker date="1586289529000" expanded="true" signature="78:4471" ph="{...}" />
+            <marker date="1586289529000" expanded="true" signature="85:160" ph="/// The result of a locomotion request ... " />
+            <marker date="1586289529000" expanded="true" signature="190:580" ph="{...}" />
+            <marker date="1586289529000" expanded="true" signature="205:291" ph="/// The locomotion request was successful ... " />
+            <marker date="1586289529000" expanded="true" signature="317:434" ph="/// The locomotion request failed due to the system being currently busy ... " />
+            <marker date="1586289529000" expanded="true" signature="457:559" ph="/// The locomotion request failed due to an unknown error ... " />
+            <marker date="1586289529000" expanded="true" signature="586:938" ph="/// The LocomotionSystem object is used to control access to the XR Rig. This system enforces that only one ... " />
+            <marker date="1586289529000" expanded="true" signature="988:4469" ph="{...}" />
+            <marker date="1586289529000" expanded="true" signature="1291:1386" ph="/// The timeout for exclusive access to the XR Rig ... " />
+            <marker date="1586289529000" expanded="true" signature="1605:1701" ph="/// The XR Rig object to provide access control to. ... " />
+            <marker date="1586289529000" expanded="true" signature="1789:1966" ph="/// Is a locomotion request already being performed ... " />
+            <marker date="1586289529000" expanded="true" signature="1991:2114" ph="{...}" />
+            <marker date="1586289529000" expanded="true" signature="2017:2104" ph="{...}" />
+            <marker date="1586289529000" expanded="true" signature="2124:2470" ph="/// The RequestExclusiveOperation function will attempt to &quot;lock&quot; access to the XR Rig for the Locomotion Provide ... " />
+            <marker date="1586289529000" expanded="true" signature="2554:3050" ph="{...}" />
+            <marker date="1586289529000" expanded="true" signature="2694:2872" ph="{...}" />
+            <marker date="1586289529000" expanded="true" signature="2928:2999" ph="{...}" />
+            <marker date="1586289529000" expanded="true" signature="3092:3199" ph="{...}" />
+            <marker date="1586289529000" expanded="true" signature="3209:3541" ph="/// This function informs the LocomotionSystem that Exclusive Access to the XR Rig is no longer required. ... " />
+            <marker date="1586289529000" expanded="true" signature="3624:4022" ph="{...}" />
+            <marker date="1586289529000" expanded="true" signature="3805:3915" ph="{...}" />
+            <marker date="1586289529000" expanded="true" signature="3932:4004" ph="{...}" />
+            <marker date="1586289529000" expanded="true" signature="4032:4109" ph="/// The standard update function ... " />
+            <marker date="1586289529000" expanded="true" signature="4138:4321" ph="{...}" />
+            <marker date="1586289529000" expanded="true" signature="4247:4311" ph="{...}" />
+            <marker date="1586289529000" expanded="true" signature="4351:4463" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Locomotion/Teleportation/TeleportationProvider.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/XR/XRRig.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="58" column="70" selection-start-line="58" selection-start-column="70" selection-end-line="58" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BecomeChildToPlatform.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+          <folding>
+            <marker date="1601526566252" expanded="true" signature="0:204" ph="/* Upon teleportation to a platform: ... */" />
+            <marker date="1601526566252" expanded="true" signature="212:348" ph="..." />
+            <marker date="1601526566252" expanded="true" signature="400:1423" ph="{...}" />
+            <marker date="1601526566252" expanded="true" signature="624:761" ph="{...}" />
+            <marker date="1601526566252" expanded="true" signature="819:1272" ph="{...}" />
+            <marker date="1601526566252" expanded="true" signature="853:1266" ph="{...}" />
+            <marker date="1601526566252" expanded="true" signature="948:1256" ph="{...}" />
+            <marker date="1601526566252" expanded="true" signature="1335:1421" ph="{...}" />
           </folding>
         </state>
       </provider>
