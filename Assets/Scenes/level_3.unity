@@ -1272,7 +1272,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh142702
+  m_Name: pb_Mesh168876
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5025,6 +5025,11 @@ PrefabInstance:
       propertyPath: fadeImage
       value: 
       objectReference: {fileID: 1202975179}
+    - target: {fileID: 5018007852039295803, guid: e700de88a40ab66448fd6a28df60a734,
+        type: 3}
+      propertyPath: nextScene
+      value: level_4
+      objectReference: {fileID: 0}
     - target: {fileID: 5018007852039295807, guid: e700de88a40ab66448fd6a28df60a734,
         type: 3}
       propertyPath: m_LocalPosition.x
